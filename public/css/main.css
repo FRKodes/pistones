@@ -1,0 +1,135 @@
+body {
+  background: transparent url("../../images/background.jpg") repeat center top;
+  color: #000;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-default {
+  background: transparent;
+  border: none;
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background: #fff;
+  border-radius: 2px;
+  height: 4px;
+  width: 25px;
+}
+
+.navbar-brand span {
+  font-size: 0.7em;
+}
+
+.banner-video {
+  background: transparent url("../../images/franquicia.jpg") no-repeat 45.7% top;
+  background-size: cover;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner-video .play {
+  background: rgba(255,255,255,0.7);
+  border-radius: 50%;
+  height: 80px;
+  left: 50%;
+  margin-left: -40px;
+  margin-top: -40px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  vertical-align: middle;
+  width: 80px;
+}
+
+.banner-video .burger-love {
+  bottom: -70px;
+  height: auto;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  width: 90%;
+}
+
+.banner-video .burger-love img {
+  width: 285px;
+}
+
+.text-container {
+  background: #fff;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.text-container .title {
+  padding: 0;
+  text-align: center;
+}
+
+.text-container .title img {
+  height: auto;
+  width: 90%;
+}
+
+.text-container p {
+  padding: 15px;
+}
+
+.product-slider img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.metanle-tuuurbo {
+  background: transparent url("../../images/metanleturbo.jpg") no-repeat center center;
+  height: 300px;
+  text-align: center;
+}
+
+.metanle-tuuurbo img {
+  width: 300px;
+}
+
+footer {
+  background: rgba(0,0,0,0.9);
+  height: auto;
+  margin-top: 40px;
+  overflow: hidden;
+  text-align: center;
+}
+
+footer img {
+  width: 300px;
+}
+
+footer ul.social {
+  padding: 0;
+  margin-top: -70px;
+}
+
+footer ul.social li {
+  display: inline-block;
+  font-size: 3em;
+  margin: 0 2px;
+}
+
+footer ul.social a {
+  color: #f5841f;
+}
+
+footer .disclaimer {
+  border-top: 1px solid #fff;
+  color: #fff;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+footer .disclaimer a {
+  color: #02e0e1;
+}
