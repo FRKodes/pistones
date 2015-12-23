@@ -7,6 +7,13 @@ body {
 .navbar-default {
   background: transparent;
   border: none;
+  font-family: chunkfiveroman;
+  transition: background 1s ease;
+}
+
+.navbar-default.shadow {
+  background: rgba(0,0,0,0.85);
+  transition: background 1s ease;
 }
 
 .navbar-default .navbar-toggle {
@@ -96,7 +103,7 @@ body {
 }
 
 footer {
-  background: rgba(0,0,0,0.9);
+  background: rgba(0,0,0,0.85);
   height: auto;
   margin-top: 40px;
   overflow: hidden;
@@ -132,4 +139,155 @@ footer .disclaimer {
 
 footer .disclaimer a {
   color: #02e0e1;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-brand {
+    display: none;
+  }
+
+  .navbar-default {
+    padding-bottom: 10px;
+  }
+
+  .navbar-default .navbar-nav {
+    padding-top: 10px;
+    letter-spacing: 1px;
+  }
+
+  .navbar-default .navbar-nav>.active>a {
+    color: #f5841f;
+    background: transparent;
+  }
+
+  .navbar-default .navbar-nav>li>a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.8em;
+  }
+
+  .navbar-default .navbar-nav>li>a:hover,
+  .navbar-default .navbar-nav>li>a:active {
+    color: #f5841f;
+    transition: color 0.5s ease;
+  }
+
+  .navbar-default .navbar-collapse {
+    text-align: center;
+  }
+
+  .navbar-default .navbar-nav {
+    float: none;
+  }
+
+  .navbar-default .navbar-nav li {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+  }
+
+  .navbar-default .navbar-nav li a span {
+    color: transparent;
+  }
+
+  .navbar-default .navbar-nav li#home {
+    height: 50px;
+    overflow: hidden;
+    width: 80px;
+  }
+
+  .navbar-default .navbar-nav li#home img {
+    margin-left: -11px;
+    margin-top: -26px;
+    width: 80px;
+  }
+
+  .nav>li>a {
+    padding: 10px;
+    transition: color 0.5s ease;
+  }
+
+  .banner-video {
+    margin-bottom: 30px;
+  }
+
+  .text-container {
+    margin-top: 0;
+  }
+
+  .text-container .title img.livesports {
+    margin-top: -15px;
+  }
+
+  .metanle-tuuurbo {
+    margin-bottom: 50px;
+  }
+
+  .metanle-tuuurbo img {
+    width: 400px;
+    margin-top: -45px;
+  }
+
+  footer img {
+    width: 450px;
+  }
+
+  footer ul.social {
+    margin-top: -120px;
+  }
+
+  footer ul.social li {
+    font-size: 4em;
+    margin: 0 6px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .nav>li>a {
+    padding: 10px 15px;
+  }
+
+  .navbar-default .navbar-nav>li>a {
+    font-size: 1em;
+  }
+
+  .navbar-default .navbar-nav li#home {
+    height: 65px;
+    width: 100px;
+  }
+
+  .navbar-default .navbar-nav li#home img {
+    margin-left: -16px;
+    margin-top: -29px;
+    width: 100px;
+  }
+
+  .banner-video {
+    height: 625px;
+  }
+
+  .metanle-tuuurbo {
+    margin-bottom: 80px;
+  }
+
+  .metanle-tuuurbo img {
+    width: 450px;
+    margin-top: -72px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .navbar-default .navbar-nav>li>a {
+    font-size: 1.2em;
+  }
+
+  .navbar-default .navbar-nav li#home {
+    height: 80px;
+    width: 140px;
+  }
+
+  .navbar-default .navbar-nav li#home img {
+    margin-top: -41px;
+    width: 140px;
+  }
 }

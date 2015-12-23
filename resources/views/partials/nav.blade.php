@@ -15,7 +15,7 @@
 				<li class="active"><a href="#">Filosofía</a></li>
 				<li><a href="#about">Acerca De</a></li>
 				<li><a href="#">Club Pistones</a></li>
-				<li><a href="#">Inicio</a></li>
+				<li id="home"><a href="/"><img src="images/logo_pistones.svg" alt="logo pistones garage"></a></li>
 				<li><a href="#">Cocina</a></li>
 				<li><a href="#">Sucursales</a></li>
 				<li><a href="#">Franquicia</a></li>
