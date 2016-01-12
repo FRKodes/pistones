@@ -10918,6 +10918,42 @@ button.close {
   height: auto;
   border: 1px solid transparent;
 }
+.chunk {
+  font-family: 'chunkfiveroman';
+}
+
+h1.chunk {
+  font-size: 2.4em;
+  text-align: center;
+  line-height: 0.8em;
+}
+
+h1.chunk span {
+  color: #f5841f;
+  font-size: 0.83em;
+}
+
+h2.chunk {
+  font-size: 1.7em;
+  text-align: center;
+}
+
+h2.chunk span {
+  color: #f5841f;
+  font-size: 2.4em;
+}
+
+h2.chunk span.two {
+  color: #000;
+  font-size: 1.3em;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 body {
   background: transparent url("../../images/background.jpg") repeat center top;
   color: #000;
@@ -11022,6 +11058,23 @@ body {
   width: 300px;
 }
 
+/*filosofía*/
+
+.inner-banner {
+  height: 300px;
+  background: #000;
+  text-align: center;
+  background-size: cover;
+}
+
+.inner-banner.filosofia {
+  background: transparent url("../../images/filosofia.jpg") no-repeat center top;
+}
+
+.inner-banner .inner-title {
+  margin-top: 150px;
+}
+
 footer {
   background: rgba(0,0,0,0.85);
   height: auto;
@@ -11061,7 +11114,39 @@ footer .disclaimer a {
   color: #02e0e1;
 }
 
+@media screen and (min-width: 480px) {
+  h1.chunk {
+    font-size: 3.7em;
+  }
+
+  h2.chunk {
+    font-size: 2.7em;
+  }
+
+  iframe {
+    width: 100%;
+    height: 400px;
+  }
+}
+
 @media screen and (min-width: 768px) {
+  .container {
+    padding-bottom: 25px;
+    padding-top: 15px;
+  }
+
+  h1.chunk {
+    font-size: 1.8em;
+  }
+
+  h2.chunk {
+    font-size: 1.1em;
+  }
+
+  iframe {
+    height: 336px;
+  }
+
   .navbar-brand {
     display: none;
   }
@@ -11132,7 +11217,13 @@ footer .disclaimer a {
   }
 
   .text-container {
-    margin-top: 0;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .text-container.first {
+    margin-top: 30px;
   }
 
   .text-container .title img.livesports {
@@ -11163,6 +11254,18 @@ footer .disclaimer a {
 }
 
 @media screen and (min-width: 1000px) {
+  h1.chunk {
+    font-size: 2.6em;
+  }
+
+  h2.chunk {
+    font-size: 1.8em;
+  }
+
+  .text-container.first {
+    margin-top: 130px;
+  }
+
   .nav>li>a {
     padding: 10px 15px;
   }

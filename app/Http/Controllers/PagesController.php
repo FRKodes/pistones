@@ -11,4 +11,8 @@ class PagesController extends Controller {
 		return View('pages.index');
 	}
 
+	public function filosofia(){
+		return View('pages.filosofia');
+	}
+
 }

@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'PagesController@index');
+Route::get('filosofia', 'PagesController@filosofia');
 
 // Route::get('home', 'HomeController@index');
 
