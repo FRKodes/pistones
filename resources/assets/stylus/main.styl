@@ -2,6 +2,8 @@ naranja = #F5841F
 turquesa = #02E0E1
 .chunk
 	font-family 'chunkfiveroman'
+.naranja
+	color naranja
 h1.chunk
 	font-size 2.4em
 	text-align center
@@ -76,6 +78,11 @@ body
 	background white
 	margin-bottom 30px
 	margin-top 30px
+	&.beerday
+		.title img
+			margin-top -60px
+		p
+			margin-top -80px
 	.title
 		padding 0
 		text-align center
@@ -105,8 +112,88 @@ body
 	background-size cover
 	&.filosofia
 		background transparent url(../../images/filosofia.jpg) no-repeat center top
+	&.acercade
+		background transparent url(../../images/acerca_de.jpg) no-repeat center top
+	&.clubpistones
+		background transparent url(../../images/clubpistones.jpg) no-repeat center top
+	&.cocina
+		background transparent url(../../images/cocina.jpg) no-repeat center top
 	.inner-title
 		margin-top 150px
+
+/*Acerca de*/
+.container.space
+	margin-bottom 20px	
+	margin-top 20px
+.container.black
+	background black
+	color white
+	margin-top 30px
+	margin-bottom 30px
+	padding-bottom 20px
+	.text-container
+		background black
+	h1.nuestra
+		font-size 3.6em
+		background black
+		span.naranja
+			font-size 1em
+h2.concepto
+	font-size 2.7em
+	
+/*Club Pistones*/
+.container.white.clubpistones
+	background white
+	color black
+	margin-top 30px
+	margin-bottom 30px
+	padding-bottom 20px
+	.text-container
+		background white
+		&.black
+			background black
+	h1
+		font-size 2.3em
+		background white
+		line-height 1.2em
+		span.naranja
+			font-size 1.6em
+.text-container.black
+	background black
+	color white
+	padding-top 10px
+	padding-bottom 10px
+	h2.conoce
+		font-size 2.4em
+		span
+			font-size 1.05em
+
+/*cocina*/
+.adictiva
+	.last
+		margin-top -30px
+		padding-bottom 20px
+.back_naranja
+	background naranja
+	color white
+	h1
+		background naranja
+		img
+			width 100%
+.estrellas
+	width 98%
+.text-container
+	img
+		width 100%
+		margin-top -50px
+h2.chunk.botana
+	font-size 2.6em
+	
+h2.chunk.antoja
+	font-size 2.1em
+	span
+		font-size 1.3em
+	
 footer
 	background rgba(black, .85)
 	height auto
@@ -141,6 +228,31 @@ footer
 	iframe
 		width 100%
 		height 400px
+	/*Acerca de*/
+	.container.black
+		h1.nuestra
+			font-size 5.6em
+	h2.concepto
+		font-size 4.7em
+	/*club pistones*/
+	.card
+		margin-top -40px
+	.container.white.clubpistones
+		h1
+			font-size 3.2em
+	.text-container.black
+		h2.conoce
+			font-size 4.1em
+	/*Cocina*/
+	.adictiva .last
+		margin-top -80px
+	.text-container img.burger-love
+		margin-top -160px
+	.p-top-20
+		padding-top 20px
+	.text-container.p-top-20
+		p
+			margin-top -100px
 @media screen and (min-width:768px)
 	.container
 		padding-bottom 25px
@@ -207,6 +319,11 @@ footer
 		img
 			width 400px
 			margin-top -45px
+	/*acerca de 768*/
+	h2.concepto
+		font-size 2.5em
+	.text-container .title img.taller_deportes
+		margin-top -50px
 	footer
 		img
 			width 450px
@@ -215,6 +332,37 @@ footer
 			li
 				font-size 4em
 				margin 0 6px
+	/*Club Pistones*/
+	.text-container.black
+		h2.conoce
+			font-size 2.1em
+	/*Cocina*/
+	.back_naranja
+		h1
+			img
+				width 45%
+	.estrellas
+		width 45%
+		margin-top -50px
+	.text-container
+		img
+			width 100%
+			margin-top 0px
+	h2.chunk.botana
+		font-size 2em
+	h2.chunk.antoja
+		font-size 1.5em
+		span
+			font-size 1.3em
+	.col-sm-4
+	.col-sm-8
+		vertical-align middle
+	.text-container
+		img.burger-love
+			margin-top 0
+			width 90%
+	.text-container.p-top-20 p
+			margin-top -50px
 @media screen and (min-width:1000px)
 	h1.chunk
 		font-size 2.6em
@@ -242,6 +390,20 @@ footer
 		img
 			width 450px
 			margin-top -72px
+	/*acerca de 1000*/
+	h2.concepto
+		font-size 3.3em
+	/*Club Pistones*/
+	.text-container.black
+		h2.conoce
+			font-size 2.8em
+	/*Cocina*/
+	.back_naranja
+		margin-top 20px
+		h1
+			img
+				margin-top -90px
+				width 350px
 @media screen and (min-width:1280px)
 	.navbar-default
 		.navbar-nav>li>a

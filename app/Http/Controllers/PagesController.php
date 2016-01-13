@@ -14,5 +14,18 @@ class PagesController extends Controller {
 	public function filosofia(){
 		return View('pages.filosofia');
 	}
+	
+	public function acercade(){
+		return View('pages.acercade');
+	}
+	public function clubpistones(){
+		return View('pages.clubpistones');
+	}
+	public function cocina(){
+		return View('pages.cocina');
+	}
+	public function sucursales(){
+		return View('pages.sucursales');
+	}
 
 }

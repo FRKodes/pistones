@@ -10922,6 +10922,10 @@ button.close {
   font-family: 'chunkfiveroman';
 }
 
+.naranja {
+  color: #f5841f;
+}
+
 h1.chunk {
   font-size: 2.4em;
   text-align: center;
@@ -11028,6 +11032,14 @@ body {
   margin-top: 30px;
 }
 
+.text-container.beerday .title img {
+  margin-top: -60px;
+}
+
+.text-container.beerday p {
+  margin-top: -80px;
+}
+
 .text-container .title {
   padding: 0;
   text-align: center;
@@ -11071,8 +11083,136 @@ body {
   background: transparent url("../../images/filosofia.jpg") no-repeat center top;
 }
 
+.inner-banner.acercade {
+  background: transparent url("../../images/acerca_de.jpg") no-repeat center top;
+}
+
+.inner-banner.clubpistones {
+  background: transparent url("../../images/clubpistones.jpg") no-repeat center top;
+}
+
+.inner-banner.cocina {
+  background: transparent url("../../images/cocina.jpg") no-repeat center top;
+}
+
 .inner-banner .inner-title {
   margin-top: 150px;
+}
+
+/*Acerca de*/
+
+.container.space {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.container.black {
+  background: #000;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+.container.black .text-container {
+  background: #000;
+}
+
+.container.black h1.nuestra {
+  font-size: 3.6em;
+  background: #000;
+}
+
+.container.black h1.nuestra span.naranja {
+  font-size: 1em;
+}
+
+h2.concepto {
+  font-size: 2.7em;
+}
+
+/*Club Pistones*/
+
+.container.white.clubpistones {
+  background: #fff;
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+.container.white.clubpistones .text-container {
+  background: #fff;
+}
+
+.container.white.clubpistones .text-container.black {
+  background: #000;
+}
+
+.container.white.clubpistones h1 {
+  font-size: 2.3em;
+  background: #fff;
+  line-height: 1.2em;
+}
+
+.container.white.clubpistones h1 span.naranja {
+  font-size: 1.6em;
+}
+
+.text-container.black {
+  background: #000;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.text-container.black h2.conoce {
+  font-size: 2.4em;
+}
+
+.text-container.black h2.conoce span {
+  font-size: 1.05em;
+}
+
+/*cocina*/
+
+.adictiva .last {
+  margin-top: -30px;
+  padding-bottom: 20px;
+}
+
+.back_naranja {
+  background: #f5841f;
+  color: #fff;
+}
+
+.back_naranja h1 {
+  background: #f5841f;
+}
+
+.back_naranja h1 img {
+  width: 100%;
+}
+
+.estrellas {
+  width: 98%;
+}
+
+.text-container img {
+  width: 100%;
+  margin-top: -50px;
+}
+
+h2.chunk.botana {
+  font-size: 2.6em;
+}
+
+h2.chunk.antoja {
+  font-size: 2.1em;
+}
+
+h2.chunk.antoja span {
+  font-size: 1.3em;
 }
 
 footer {
@@ -11126,6 +11266,42 @@ footer .disclaimer a {
   iframe {
     width: 100%;
     height: 400px;
+  }
+
+  .container.black h1.nuestra {
+    font-size: 5.6em;
+  }
+
+  h2.concepto {
+    font-size: 4.7em;
+  }
+
+  .card {
+    margin-top: -40px;
+  }
+
+  .container.white.clubpistones h1 {
+    font-size: 3.2em;
+  }
+
+  .text-container.black h2.conoce {
+    font-size: 4.1em;
+  }
+
+  .adictiva .last {
+    margin-top: -80px;
+  }
+
+  .text-container img.burger-love {
+    margin-top: -160px;
+  }
+
+  .p-top-20 {
+    padding-top: 20px;
+  }
+
+  .text-container.p-top-20 p {
+    margin-top: -100px;
   }
 }
 
@@ -11239,6 +11415,14 @@ footer .disclaimer a {
     margin-top: -45px;
   }
 
+  h2.concepto {
+    font-size: 2.5em;
+  }
+
+  .text-container .title img.taller_deportes {
+    margin-top: -50px;
+  }
+
   footer img {
     width: 450px;
   }
@@ -11250,6 +11434,50 @@ footer .disclaimer a {
   footer ul.social li {
     font-size: 4em;
     margin: 0 6px;
+  }
+
+  .text-container.black h2.conoce {
+    font-size: 2.1em;
+  }
+
+  .back_naranja h1 img {
+    width: 45%;
+  }
+
+  .estrellas {
+    width: 45%;
+    margin-top: -50px;
+  }
+
+  .text-container img {
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  h2.chunk.botana {
+    font-size: 2em;
+  }
+
+  h2.chunk.antoja {
+    font-size: 1.5em;
+  }
+
+  h2.chunk.antoja span {
+    font-size: 1.3em;
+  }
+
+  .col-sm-4,
+  .col-sm-8 {
+    vertical-align: middle;
+  }
+
+  .text-container img.burger-love {
+    margin-top: 0;
+    width: 90%;
+  }
+
+  .text-container.p-top-20 p {
+    margin-top: -50px;
   }
 }
 
@@ -11296,6 +11524,23 @@ footer .disclaimer a {
   .metanle-tuuurbo img {
     width: 450px;
     margin-top: -72px;
+  }
+
+  h2.concepto {
+    font-size: 3.3em;
+  }
+
+  .text-container.black h2.conoce {
+    font-size: 2.8em;
+  }
+
+  .back_naranja {
+    margin-top: 20px;
+  }
+
+  .back_naranja h1 img {
+    margin-top: -90px;
+    width: 350px;
   }
 }
 
