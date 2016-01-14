@@ -27,5 +27,8 @@ class PagesController extends Controller {
 	public function sucursales(){
 		return View('pages.sucursales');
 	}
+	public function franquicia(){
+		return View('pages.franquicia');
+	}
 
 }

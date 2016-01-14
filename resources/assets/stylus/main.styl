@@ -4,6 +4,8 @@ turquesa = #02E0E1
 	font-family 'chunkfiveroman'
 .naranja
 	color naranja
+.relative
+	position relative
 h1.chunk
 	font-size 2.4em
 	text-align center
@@ -118,6 +120,10 @@ body
 		background transparent url(../../images/clubpistones.jpg) no-repeat center top
 	&.cocina
 		background transparent url(../../images/cocina.jpg) no-repeat center top
+	&.sucursales
+		background transparent url(../../images/sucursales.jpg) no-repeat center top
+	&.franquicia
+		background transparent url(../../images/franquicia.jpg) no-repeat center top
 	.inner-title
 		margin-top 150px
 
@@ -193,7 +199,48 @@ h2.chunk.antoja
 	font-size 2.1em
 	span
 		font-size 1.3em
-	
+/*Sucursales*/
+.sucursales
+	.row
+		margin-bottom 100px
+		&:first-of-type
+			margin-top 50px
+	h2
+		font-size 2
+		text-align left
+		padding 0 15px
+	.map
+		overflow hidden
+		height auto
+		img
+			width 100%
+			height auto
+			display block
+			margin 0
+/*Franquicia*/
+.franquicia
+	h1
+		font-size 1.85em
+		line-height 1.1em
+		span
+			font-size 1.9em
+			line-height .9em
+h2.escribenos
+	font-size 2.8em
+.form-control
+	border-radius 0
+	border 1px solid naranja
+	margin-bottom 30px
+textarea
+	resize none
+.btn.btn-primary
+	background naranja
+	color white
+	border 1px solid naranja
+	border-radius 0
+	width 100%
+	font-size 1.6em
+	letter-spacing 1px
 footer
 	background rgba(black, .85)
 	height auto
@@ -253,6 +300,16 @@ footer
 	.text-container.p-top-20
 		p
 			margin-top -100px
+	/*Franquicia*/
+	.franquicia
+		h1
+			font-size 3.2em
+	h2.escribenos
+		font-size 4em
+	.form
+		width 400px
+		overflow hidden
+		margin 0 auto
 @media screen and (min-width:768px)
 	.container
 		padding-bottom 25px
@@ -305,7 +362,15 @@ footer
 		padding 10px
 		transition color .5s ease
 	.banner-video
-		margin-bottom 30px
+		margin-bottom 0
+		padding-left 0
+		padding-right 0
+		height auto
+		// position fixed
+		// width 100%
+		// display block
+		iframe
+			width 100%
 	.text-container
 		margin-top 0px
 		padding-top 10px
@@ -363,6 +428,15 @@ footer
 			width 90%
 	.text-container.p-top-20 p
 			margin-top -50px
+	/*Franquicia*/
+	.slider-franquicia
+		position absolute
+		top 230px
+	.franquicia
+		h1
+			font-size 2.5em
+	h2.escribenos
+		font-size 4em
 @media screen and (min-width:1000px)
 	h1.chunk
 		font-size 2.6em
@@ -404,6 +478,16 @@ footer
 			img
 				margin-top -90px
 				width 350px
+	/*Franquicia*/
+	.slider-franquicia
+		top 250px
+	.franquicia
+		h1
+			font-size 3.2em
+	.container.black.relative
+		padding-bottom 100px
+	h2.escribenos
+		font-size 4em
 @media screen and (min-width:1280px)
 	.navbar-default
 		.navbar-nav>li>a
@@ -415,3 +499,10 @@ footer
 				img
 					margin-top -41px
 					width 140px
+	/*Franquicia*/
+	.franquicia
+		h1
+			font-size 4em
+			margin-top -10px
+	.container.black.relative
+		padding-bottom 230px
