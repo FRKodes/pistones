@@ -18,7 +18,7 @@
 		</div>
 	</div>
 
-	<div class="container">
+	<div class="container p-up-down-40px">
 		<div class="col-sm-4">
 			<div class="text-container black">
 				<h2 class="chunk conoce">CONOCE LOS<br><span>BENEFICIOS</span></h2>
@@ -29,7 +29,8 @@
 		</div>
 		<div class="col-sm-8">
 			<div class="product-slider">
-				<div class="item"><img src="images/club-pistones-01.jpg" alt="club pistones 01"></div>
+				<div class="item"><img src="images/club-pistones-01.jpg" alt="club pistones 01, roast beef sandwich."></div>
+				<div class="item"><img src="images/club-pistones-02.jpg" alt="club pistones 02, barra, cervezas."></div>
 			</div>
 		</div>
 	</div>

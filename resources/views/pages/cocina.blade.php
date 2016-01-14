@@ -34,12 +34,13 @@
 		<div class="col-sm-8">
 			<div class="product-slider">
 				<div class="item"><img src="images/comida-pistones-01.png" alt=""></div>
+				<div class="item"><img src="images/comida-pistones-02.png" alt=""></div>
 			</div>
 		</div>
 	</div>
 
-	<div class="container">
-		<div class="col-sm-4 pull-right">
+	<div class="container botana">
+		<div class="col-sm-4">
 			<div class="text-container black">
 				<h2 class="chunk naranja botana">LA BOTANA</h2>
 				<p>
@@ -48,14 +49,15 @@
 				</p>
 			</div>
 		</div>
-		<div class="col-sm-8 pull-left">
-			<div class="product-slider">
+		<div class="col-sm-8">
+			<div class="product-slider-2">
 				<div class="item"><img src="images/comida-pistones-01.png" alt=""></div>
+				<div class="item"><img src="images/comida-pistones-02.png" alt=""></div>
 			</div>
 		</div>
 	</div>
 
-	<div class="container">
+	<div class="container p-up-down-40px">
 		<div class="col-sm-4">
 			<div class="text-container">
 				<h2 class="chunk naranja antoja">¿SE TE ANTOJA<br><span>ALGO MÁS?</span></h2>
@@ -65,8 +67,9 @@
 			</div>
 		</div>
 		<div class="col-sm-8">
-			<div class="product-slider">
+			<div class="product-slider-3">
 				<div class="item"><img src="images/comida-pistones-01.png" alt=""></div>
+				<div class="item"><img src="images/comida-pistones-02.png" alt=""></div>
 			</div>
 		</div>
 	</div>

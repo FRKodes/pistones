@@ -2,12 +2,21 @@
   font-family: 'chunkfiveroman';
 }
 
+.container-fluid {
+  background: transparent url("../../images/background.jpg") repeat center top;
+}
+
 .naranja {
   color: #f5841f;
 }
 
 .relative {
   position: relative;
+}
+
+.p-up-down-40px {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 h1.chunk {
@@ -71,14 +80,34 @@ body {
   width: 25px;
 }
 
-.navbar-brand span {
-  font-size: 0.7em;
+.navbar-default .navbar-brand {
+  color: #fff;
+  position: relative;
+  margin: 0;
+}
+
+.navbar-default .navbar-brand:before {
+  font-size: 10em;
+  line-height: 0.1em;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-default .navbar-collapse.collapse,
+.navbar-default .navbar-collapse.collapsing {
+  background: rgba(0,0,0,0.7);
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
 }
 
 .banner-video {
   background: transparent url("../../images/franquicia.jpg") no-repeat 45.7% top;
   background-size: cover;
-  height: 400px;
+  height: auto;
   overflow: hidden;
   position: relative;
 }
@@ -138,10 +167,41 @@ body {
   padding: 15px;
 }
 
-.product-slider img {
+.product-slider img,
+.product-slider-2 img,
+.product-slider-3 img {
   display: block;
   height: auto;
   width: 100%;
+}
+
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+.slick-dots {
+  text-align: center;
+  padding: 25px 0 0;
+}
+
+.slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  border: 1px solid #f5841f;
+}
+
+.slick-dots li.slick-active {
+  background: #f5841f;
+}
+
+.slick-dots li button {
+  background: none;
+  border: none;
+  color: transparent;
 }
 
 .metanle-tuuurbo {
@@ -351,10 +411,18 @@ h2.escribenos {
   font-size: 2.8em;
 }
 
+form {
+  position: relative;
+}
+
 .form-control {
   border-radius: 0;
   border: 1px solid #f5841f;
   margin-bottom: 30px;
+}
+
+.error .form-control {
+  background: rgba(255,0,0,0.3);
 }
 
 textarea {
@@ -371,12 +439,31 @@ textarea {
   letter-spacing: 1px;
 }
 
+.sent_mail_alert {
+  background: #f5841f;
+  text-align: center;
+  color: #fff;
+  padding: 40px 20px;
+  font-size: 2em;
+  text-transform: uppercase;
+  position: absolute;
+  width: 100%;
+  bottom: 200px;
+  display: none;
+}
+
 footer {
-  background: rgba(0,0,0,0.85);
+  background: url("../../images/background.jpg") repeat center top;
   height: auto;
-  margin-top: 40px;
   overflow: hidden;
   text-align: center;
+}
+
+footer .inner-back {
+  background: rgba(0,0,0,0.85);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 footer img {
@@ -527,6 +614,10 @@ footer .disclaimer a {
     text-align: center;
   }
 
+  .navbar-default .navbar-collapse.collapse {
+    background: transparent;
+  }
+
   .navbar-default .navbar-nav {
     float: none;
   }
@@ -565,31 +656,36 @@ footer .disclaimer a {
     height: auto;
   }
 
-  .banner-video iframe {
-    width: 100%;
-  }
-
+  .pattern,
+  .big-background,
+  height 600px,
   .text-container {
     margin-top: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
+  .pattern.first,
+  .big-background.first,
+  height 600px.first,
   .text-container.first {
     margin-top: 30px;
   }
 
+  .pattern .title img.livesports,
+  .big-background .title img.livesports,
+  height 600px .title img.livesports,
   .text-container .title img.livesports {
     margin-top: -15px;
-  }
-
-  .metanle-tuuurbo {
-    margin-bottom: 50px;
   }
 
   .metanle-tuuurbo img {
     width: 400px;
     margin-top: -45px;
+  }
+
+  .container.p-up-down-40px.livesports {
+    padding-top: 80px;
   }
 
   h2.concepto {
@@ -619,6 +715,7 @@ footer .disclaimer a {
 
   .back_naranja h1 img {
     width: 45%;
+    margin-top: -45px;
   }
 
   .estrellas {
@@ -655,6 +752,16 @@ footer .disclaimer a {
 
   .text-container.p-top-20 p {
     margin-top: -50px;
+  }
+
+  .container.botana .col-sm-4,
+  .container.deportes .col-sm-4 {
+    float: right;
+  }
+
+  .container.botana .col-sm-8,
+  .container.deportes .col-sm-8 {
+    float: left;
   }
 
   .slider-franquicia {
@@ -707,10 +814,6 @@ footer .disclaimer a {
     height: 625px;
   }
 
-  .metanle-tuuurbo {
-    margin-bottom: 80px;
-  }
-
   .metanle-tuuurbo img {
     width: 450px;
     margin-top: -72px;
@@ -729,7 +832,7 @@ footer .disclaimer a {
   }
 
   .back_naranja h1 img {
-    margin-top: -90px;
+    margin-top: -45px;
     width: 350px;
   }
 

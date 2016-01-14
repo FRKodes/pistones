@@ -2,10 +2,15 @@ naranja = #F5841F
 turquesa = #02E0E1
 .chunk
 	font-family 'chunkfiveroman'
+.container-fluid
+	background transparent url(../../images/background.jpg) repeat center top
 .naranja
 	color naranja
 .relative
 	position relative
+.p-up-down-40px
+	padding-top 40px
+	padding-bottom 40px
 h1.chunk
 	font-size 2.4em
 	text-align center
@@ -46,13 +51,25 @@ body
 			border-radius 2px
 			height 4px
 			width 25px
-.navbar-brand span
-	font-size .7em
+	.navbar-brand
+		color white
+		position relative
+		margin 0
+		&:before
+			font-size 10em
+			line-height 0.1em
+		&:hover
+			color white
+	.navbar-collapse.collapse
+	.navbar-collapse.collapsing
+		background rgba(black, .7)
+	.navbar-nav>li>a
+		color white
 
 .banner-video
 	background transparent url(../../images/franquicia.jpg) no-repeat 45.7% top
 	background-size cover
-	height 400px
+	height auto
 	overflow hidden
 	position relative
 	.play
@@ -94,10 +111,31 @@ body
 	p
 		padding 15px
 .product-slider
+.product-slider-2
+.product-slider-3
 	img
 		display block
 		height auto
 		width 100%
+.slick-prev
+.slick-next
+	display none !important
+.slick-dots
+	text-align center
+	padding 25px 0 0
+	li
+		display inline-block
+		margin 0 5px
+		height 14px
+		width 14px
+		border-radius 50%
+		border 1px solid naranja
+		&.slick-active
+			background naranja
+		button
+			background none
+			border none
+			color transparent
 .metanle-tuuurbo
 	background transparent url(../../images/metanleturbo.jpg) no-repeat center center
 	height 300px
@@ -227,10 +265,15 @@ h2.chunk.antoja
 			line-height .9em
 h2.escribenos
 	font-size 2.8em
+form
+	position relative
 .form-control
 	border-radius 0
 	border 1px solid naranja
 	margin-bottom 30px
+.error
+	.form-control
+		background rgba(red, .3)
 textarea
 	resize none
 .btn.btn-primary
@@ -241,12 +284,27 @@ textarea
 	width 100%
 	font-size 1.6em
 	letter-spacing 1px
+.sent_mail_alert
+	background naranja
+	text-align center
+	color white
+	padding 40px 20px
+	font-size 2em
+	text-transform uppercase
+	position absolute
+	width 100%
+	bottom 200px
+	display none
 footer
-	background rgba(black, .85)
+	background url(../../images/background.jpg) repeat center top
 	height auto
-	margin-top 40px
 	overflow hidden
 	text-align center
+	.inner-back
+		background rgba(black, .85)
+		width 100%
+		height 100%
+		overflow hidden
 	img
 		width 300px
 	ul.social
@@ -342,6 +400,8 @@ footer
 					transition color .5s ease
 		.navbar-collapse
 			text-align center
+			&.collapse
+				background transparent
 		.navbar-nav
 			float none
 			li
@@ -366,11 +426,9 @@ footer
 		padding-left 0
 		padding-right 0
 		height auto
-		// position fixed
-		// width 100%
-		// display block
-		iframe
-			width 100%
+	.pattern
+	.big-background
+	    height 600px
 	.text-container
 		margin-top 0px
 		padding-top 10px
@@ -380,10 +438,11 @@ footer
 		.title img.livesports
 			margin-top -15px
 	.metanle-tuuurbo
-		margin-bottom 50px
 		img
 			width 400px
 			margin-top -45px
+	.container.p-up-down-40px.livesports
+		padding-top 80px
 	/*acerca de 768*/
 	h2.concepto
 		font-size 2.5em
@@ -406,6 +465,7 @@ footer
 		h1
 			img
 				width 45%
+				margin-top -45px
 	.estrellas
 		width 45%
 		margin-top -50px
@@ -428,6 +488,12 @@ footer
 			width 90%
 	.text-container.p-top-20 p
 			margin-top -50px
+	.container.botana
+	.container.deportes
+		.col-sm-4
+			float right
+		.col-sm-8
+			float left
 	/*Franquicia*/
 	.slider-franquicia
 		position absolute
@@ -460,7 +526,6 @@ footer
 	.banner-video
 		height 625px
 	.metanle-tuuurbo
-		margin-bottom 80px
 		img
 			width 450px
 			margin-top -72px
@@ -476,7 +541,7 @@ footer
 		margin-top 20px
 		h1
 			img
-				margin-top -90px
+				margin-top -45px
 				width 350px
 	/*Franquicia*/
 	.slider-franquicia

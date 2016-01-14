@@ -55,6 +55,7 @@
 				<div class="form-group"> {!! Form::input('text', 'telefono', null, ['class'=>'form-control', 'placeholder'=>'Teléfono', 'data-validate'=>'required']) !!} </div>
 				<div class="form-group"> {!! Form::textarea('mensaje', null, ['class'=>'form-control', 'placeholder'=>'Mensaje']) !!} </div>
 				<div class="form-group"> {!! Form::submit('Enviar', ['class'=>'btn btn-primary chunk']) !!} </div>
+				<div class="chunk sent_mail_alert">Gracias!<br>Nos pondremos en contactigo a la brevedad.</div>
 			{!! Form::close() !!}
 		</div>
 	</div>

@@ -38,7 +38,7 @@
 		</div>
 	</div>
 
-	<div class="container">
+	<div class="container p-up-down-40px">
 		<div class="col-sm-4">
 			<div class="text-container">
 				<h2 class="chunk">CULTURA<br><span class="two">PISTONES&copy;</span></h2>
@@ -50,6 +50,9 @@
 		<div class="col-sm-8">
 			<div class="product-slider">
 				<div class="item"><img src="images/filosofia-cultura-pistones-01.jpg" alt="filosofia cultura pistones 01"></div>
+				<div class="item"><img src="images/filosofia-cultura-pistones-02.jpg" alt="filosofia cultura pistones 02"></div>
+				<div class="item"><img src="images/filosofia-cultura-pistones-03.jpg" alt="filosofia cultura pistones 03"></div>
+				<div class="item"><img src="images/filosofia-cultura-pistones-04.jpg" alt="filosofia cultura pistones 04"></div>
 			</div>
 		</div>
 	</div>

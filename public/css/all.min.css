@@ -10918,8 +10918,253 @@ button.close {
   height: auto;
   border: 1px solid transparent;
 }
+.wrapper {
+  z-index: 600;
+  position: relative;
+}
+
+.pattern {
+  background-image: url(../../images/pattern.png);
+  background-repeat: repeat;
+  background-attachment: scroll;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.divider {
+  background-image: url(../../images/divider.png);
+  display: block;
+  width: 300px;
+  height: 35px;
+  margin: 10px auto;
+}
+
+#colorize {
+  color: #f1c40f;
+  font-family: 'Lato',sans-serif;
+  font-size: 40px;
+}
+
+/* BIG VIDEO BACKGROUND
+================================================== */
+
+.big-background {
+  z-index: 550;
+  text-align: center;
+  height: 400px;
+  /*height:100%;
+    min-height:100%;*/
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .big-background,
+  .pattern {
+    height: 600px;
+  }
+}
+
+.big-background .big-background-container {
+  width: 830px;
+  max-width: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.big-background-title {
+  font-family: 'Raleway',sans-serif;
+  font-size: 78px;
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 22px;
+  padding-top: 20px;
+  display: inline-block;
+  background-attachment: scroll;
+  background-repeat: repeat-x;
+  background-position: top center;
+}
+
+a.big-background-btn {
+  font-family: 'Lato',sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background: transparent;
+  border: 2px solid #fff;
+  padding: 10px 14px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  text-align: center;
+  display: inline-block;
+  -webkit-transition: .4s background ease;
+  -moz-transition: .4s background ease;
+  -o-transition: .4s background ease;
+  transition: .4s background ease;
+}
+
+.big-background-btn:hover {
+  color: #fff;
+  background: rgba(255,255,255,0.20);
+}
+
+.big-background-default-image {
+  background: url(../../images/sunset.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  backface-visibility: hidden;
+}
+
+/* ABOUT SECTION
+================================================== */
+
+.about-section {
+  font-family: 'Lato',sans-serif;
+  color: #7f8c8d;
+  background: #fff;
+  padding: 60px 20px;
+}
+
+.about-section-container {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.about-section-title {
+  font-family: 'Raleway',sans-serif;
+  font-size: 40px;
+  background: #fff;
+  color: #3d566e;
+  padding: 0 35px;
+  margin-bottom: 22px;
+  background-attachment: scroll;
+  background-repeat: repeat-x;
+  background-position: center center;
+  text-transform: uppercase;
+}
+
+a.about-section-btn {
+  font-family: 'Lato',sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #34495e;
+  background: transparent;
+  border: 2px solid #34495e;
+  padding: 10px 14px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  text-align: center;
+  display: inline-block;
+  -webkit-transition: .4s background ease;
+  -moz-transition: .4s background ease;
+  -o-transition: .4s background ease;
+  transition: .4s background ease;
+}
+
+.about-section-btn:hover {
+  color: #fff;
+  background: #34495e;
+}
+
+/* SMALL VIDEO BACKGROUND 
+================================================== */
+
+.small-background-section {
+  font-family: 'Raleway',sans-serif;
+  padding: 100px 0;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.small-background-container {
+  position: relative;
+  text-align: center;
+}
+
+.small-background-title {
+  font-size: 40px;
+  color: #f1c40f;
+  font-weight: 300;
+  z-index: 10;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  position: relative;
+  background-attachment: scroll;
+  background-repeat: repeat-x;
+  background-position: top center;
+}
+
+/* SOCIALS
+================================================== */
+
+.socials a {
+  color: #fff;
+}
+
+.socials a:hover {
+  color: #bdc3c7;
+}
+
+/* MEDIA QUERIES
+================================================== */
+
+@media screen and (max-width: 768px) {
+  .about-section-title {
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .big-background-title {
+    font-size: 58px;
+  }
+
+  .small-background-title {
+    line-height: 1;
+  }
+
+  /*.player{ display: none;}  -> If you want to remove the video bg on a specific viewport w/o plugin*/
+}
+
+@media screen and (max-width: 360px) {
+  .big-background-title,
+  #colorize {
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .small-background-title {
+    font-size: 30px;
+  }
+}
 .chunk {
   font-family: 'chunkfiveroman';
+}
+
+.container-fluid {
+  background: transparent url("../../images/background.jpg") repeat center top;
 }
 
 .naranja {
@@ -10928,6 +11173,11 @@ button.close {
 
 .relative {
   position: relative;
+}
+
+.p-up-down-40px {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 h1.chunk {
@@ -10991,14 +11241,34 @@ body {
   width: 25px;
 }
 
-.navbar-brand span {
-  font-size: 0.7em;
+.navbar-default .navbar-brand {
+  color: #fff;
+  position: relative;
+  margin: 0;
+}
+
+.navbar-default .navbar-brand:before {
+  font-size: 10em;
+  line-height: 0.1em;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-default .navbar-collapse.collapse,
+.navbar-default .navbar-collapse.collapsing {
+  background: rgba(0,0,0,0.7);
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
 }
 
 .banner-video {
   background: transparent url("../../images/franquicia.jpg") no-repeat 45.7% top;
   background-size: cover;
-  height: 400px;
+  height: auto;
   overflow: hidden;
   position: relative;
 }
@@ -11058,10 +11328,41 @@ body {
   padding: 15px;
 }
 
-.product-slider img {
+.product-slider img,
+.product-slider-2 img,
+.product-slider-3 img {
   display: block;
   height: auto;
   width: 100%;
+}
+
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+.slick-dots {
+  text-align: center;
+  padding: 25px 0 0;
+}
+
+.slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  border: 1px solid #f5841f;
+}
+
+.slick-dots li.slick-active {
+  background: #f5841f;
+}
+
+.slick-dots li button {
+  background: none;
+  border: none;
+  color: transparent;
 }
 
 .metanle-tuuurbo {
@@ -11271,10 +11572,18 @@ h2.escribenos {
   font-size: 2.8em;
 }
 
+form {
+  position: relative;
+}
+
 .form-control {
   border-radius: 0;
   border: 1px solid #f5841f;
   margin-bottom: 30px;
+}
+
+.error .form-control {
+  background: rgba(255,0,0,0.3);
 }
 
 textarea {
@@ -11291,12 +11600,31 @@ textarea {
   letter-spacing: 1px;
 }
 
+.sent_mail_alert {
+  background: #f5841f;
+  text-align: center;
+  color: #fff;
+  padding: 40px 20px;
+  font-size: 2em;
+  text-transform: uppercase;
+  position: absolute;
+  width: 100%;
+  bottom: 200px;
+  display: none;
+}
+
 footer {
-  background: rgba(0,0,0,0.85);
+  background: url("../../images/background.jpg") repeat center top;
   height: auto;
-  margin-top: 40px;
   overflow: hidden;
   text-align: center;
+}
+
+footer .inner-back {
+  background: rgba(0,0,0,0.85);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 footer img {
@@ -11447,6 +11775,10 @@ footer .disclaimer a {
     text-align: center;
   }
 
+  .navbar-default .navbar-collapse.collapse {
+    background: transparent;
+  }
+
   .navbar-default .navbar-nav {
     float: none;
   }
@@ -11485,31 +11817,36 @@ footer .disclaimer a {
     height: auto;
   }
 
-  .banner-video iframe {
-    width: 100%;
-  }
-
+  .pattern,
+  .big-background,
+  height 600px,
   .text-container {
     margin-top: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
+  .pattern.first,
+  .big-background.first,
+  height 600px.first,
   .text-container.first {
     margin-top: 30px;
   }
 
+  .pattern .title img.livesports,
+  .big-background .title img.livesports,
+  height 600px .title img.livesports,
   .text-container .title img.livesports {
     margin-top: -15px;
-  }
-
-  .metanle-tuuurbo {
-    margin-bottom: 50px;
   }
 
   .metanle-tuuurbo img {
     width: 400px;
     margin-top: -45px;
+  }
+
+  .container.p-up-down-40px.livesports {
+    padding-top: 80px;
   }
 
   h2.concepto {
@@ -11539,6 +11876,7 @@ footer .disclaimer a {
 
   .back_naranja h1 img {
     width: 45%;
+    margin-top: -45px;
   }
 
   .estrellas {
@@ -11575,6 +11913,16 @@ footer .disclaimer a {
 
   .text-container.p-top-20 p {
     margin-top: -50px;
+  }
+
+  .container.botana .col-sm-4,
+  .container.deportes .col-sm-4 {
+    float: right;
+  }
+
+  .container.botana .col-sm-8,
+  .container.deportes .col-sm-8 {
+    float: left;
   }
 
   .slider-franquicia {
@@ -11627,10 +11975,6 @@ footer .disclaimer a {
     height: 625px;
   }
 
-  .metanle-tuuurbo {
-    margin-bottom: 80px;
-  }
-
   .metanle-tuuurbo img {
     width: 450px;
     margin-top: -72px;
@@ -11649,7 +11993,7 @@ footer .disclaimer a {
   }
 
   .back_naranja h1 img {
-    margin-top: -90px;
+    margin-top: -45px;
     width: 350px;
   }
 

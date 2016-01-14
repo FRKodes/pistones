@@ -31,12 +31,15 @@
 		<div class="col-sm-8">
 			<div class="product-slider">
 				<div class="item"><img src="images/pistones-garage-concepto01.jpg" alt="pistones garage concepto 01"></div>
+				<div class="item"><img src="images/pistones-garage-concepto02.jpg" alt="pistones garage concepto 02"></div>
+				<div class="item"><img src="images/pistones-garage-concepto03.jpg" alt="pistones garage concepto 03"></div>
+				<div class="item"><img src="images/pistones-garage-concepto04.jpg" alt="pistones garage concepto 04"></div>
 			</div>
 		</div>
 	</div>
 
-	<div class="container space">
-		<div class="col-sm-4 pull-right">
+	<div class="container space deportes">
+		<div class="col-sm-4">
 			<div class="text-container">
 				<figure class="title"><img class="taller_deportes" src="images/taller_de_los_deportes.svg" alt="El taller de los deportes"></figure>
 				<p>
@@ -44,9 +47,11 @@
 				</p>
 			</div>
 		</div>
-		<div class="col-sm-8 pull-left">
-			<div class="product-slider">
-				<div class="item"><img src="images/pistones-garage-deportes-01.jpg" alt="pistones  garage, el taller de los deportes 01.jpg"></div>
+		<div class="col-sm-8">
+			<div class="product-slider-2">
+				<div class="item"><img src="images/pistones-garage-deportes-01.jpg" alt="pistones  garage, el taller de los deportes 01"></div>
+				<div class="item"><img src="images/pistones-garage-deportes-02.jpg" alt="pistones  garage, el taller de los deportes 02"></div>
+				<div class="item"><img src="images/pistones-garage-deportes-04.jpg" alt="pistones  garage, el taller de los deportes 04"></div>
 			</div>
 		</div>
 	</div>
@@ -61,8 +66,11 @@
 			</div>
 		</div>
 		<div class="col-sm-8">
-			<div class="product-slider">
+			<div class="product-slider-3">
 				<div class="item"><img src="images/pistones-garage-berrday-01.jpg" alt="pistones garage berrday 01"></div>
+				<div class="item"><img src="images/pistones-garage-berrday-02.jpg" alt="pistones garage berrday 02"></div>
+				<div class="item"><img src="images/pistones-garage-berrday-03.jpg" alt="pistones garage berrday 03"></div>
+				<div class="item"><img src="images/pistones-garage-berrday-04.jpg" alt="pistones garage berrday 04"></div>
 			</div>
 		</div>
 	</div>

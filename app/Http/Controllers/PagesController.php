@@ -1,5 +1,6 @@
 <?php namespace App\Http\Controllers;
 
+use Mail;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
@@ -18,17 +19,28 @@ class PagesController extends Controller {
 	public function acercade(){
 		return View('pages.acercade');
 	}
+
 	public function clubpistones(){
 		return View('pages.clubpistones');
 	}
+
 	public function cocina(){
 		return View('pages.cocina');
 	}
+
 	public function sucursales(){
 		return View('pages.sucursales');
 	}
+
 	public function franquicia(){
 		return View('pages.franquicia');
+	}
+	
+	public function sendmail(){
+		Mail::send('emails.contacto', [], function($message)
+		{
+		    $message->to('frkalderon@gmail.com', 'Pistones Garage')->subject('Pistones Franquicia');
+		});
 	}
 
 }
