@@ -15,24 +15,17 @@
 		</div>
 		<div class="col-sm-6">
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nam cumque maxime illo sunt iure ad vel asperiores possimus atque eum repudiandae odio qui expedita non ab, repellendus, corporis rem.
-			</p>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea nesciunt, deserunt nisi recusandae tempora, sed commodi qui veniam quia, ipsum pariatur exercitationem. Nobis architecto illum quaerat voluptatem maiores nostrum consequuntur!
-			</p>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nam cumque maxime illo sunt iure ad vel asperiores possimus atque eum repudiandae odio qui expedita non ab, repellendus, corporis rem.
-			</p>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea nesciunt, deserunt nisi recusandae tempora, sed commodi qui veniam quia, ipsum pariatur exercitationem. Nobis architecto illum quaerat voluptatem maiores nostrum consequuntur!
-			</p>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nam cumque maxime illo sunt iure ad vel asperiores possimus atque eum repudiandae odio qui expedita non ab, repellendus, corporis rem.
-			</p>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea nesciunt, deserunt nisi recusandae tempora, sed commodi qui veniam quia, ipsum pariatur exercitationem. Nobis architecto illum quaerat voluptatem maiores nostrum consequuntur!
+				En Pistones Food & Drink Garage® se vive una experiencia extraordinaria. Nos hemos esforzado por crear un concepto único, mexicano pero con influencia internacional. Todo pensado para superar las expectativas del mercado. <br><br>
+				Desde que llegas a Pistones® te recibe un ambiente divertido, diseñado a detalle para maximizar la experiencia del Taller. Hemos desarrollado un modelo de negocio único y diferenciador, sostenido en 5 pilares fundamentales:
 			</p>
 
+			<p>
+				• Diseño e imagen. Cada herramienta y elemento visual ha sido pensado para ser memorable. Hasta el más mínimo detalle fue pensado para asegurar la fidelidad del cliente y maximizar el tráfico. <br><br>
+				• Productos de alta calidad. Un menú diverso, con deliciosas botanas, hamburguesas artesanales, ensaladas y postres. Todos creados con el toque especial de la casa. La mejor calidad al mejor precio. A Pistones® siempre quieres regresar. <br><br>
+				• Información. Un software innovador y a la medida del negocio brinda un extra para el punto de venta y ofrece ventajas al cliente. <br><br>
+				• Marketing. Una base rica en diseño y una estrategia de comunicación directa que transmite los valores de la marca y atrae al público mediante un esquema dinámico. Pistones® siempre será notorio. <br><br>
+				• Experiencia: Creado para convertir cada visita en una experiencia inolvidable. Pistones® fue diseñado para disfrutarse, para vivirse. <br><br>
+			</p>
 		</div>
 		<div class="col-sm-6 slider-franquicia">
 			<div class="product-slider">
@@ -46,9 +39,9 @@
 		<h2 class="chunk naranja escribenos">ESCRÍBENOS!</h2>
 		
 		<div class="form">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus voluptatem vel laudantium veritatis saepe cumque, a, quam adipisci facere repellat nulla quae maiores dolores dicta ex quasi ducimus explicabo. Commodi!
-			</p>
+			
+			<p class="back_white">El taller queremos escuchar de tí, llena el siguiente formulario si tienes alguna duda y/o comentario acerca de nosotros y en breve nos pondremos en contacto contigo. </p>
+
 			{!! Form::open(['url'=>'sendmail', 'id'=>'contactForm']) !!}
 				<div class="form-group"> {!! Form::input('text', 'nombre', null, ['class'=>'form-control', 'placeholder'=>'Nombre', 'data-validate'=>'required']) !!} </div>
 				<div class="form-group"> {!! Form::input('text', 'email', null, ['class'=>'form-control', 'placeholder'=>'Email', 'data-validate'=>'required|email']) !!} </div>

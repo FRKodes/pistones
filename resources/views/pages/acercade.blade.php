@@ -15,7 +15,10 @@
 			</div>
 		</div>
 		<div class="col-sm-12">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quas quibusdam nesciunt, accusantium ipsam minima eius. A debitis consectetur, dicta tempora. Facilis, eos? Porro eligendi modi numquam a voluptatum officiis.</p>
+			<p>
+				Pistones Food & Drink Garage® nace ante la falta de un lugar extraordinario y divertido a un precio razonable. Inspirado en la historia del automovilismo, Pistones® fue creado para ofrecer experiencias extraordinarias. Un espacio que mezcla historia y actualidad, que reinterpreta un taller mecánico para convertirlo en un lugar de entretenimiento. <br><br>
+				En Pistones® el sabor sí importa, por eso hemos creado nuestra propia versión de la clásica cocina americana con un toque especial, perfecto para disfrutarlo en familia o con amigos. Divertida decoración, deliciosa comida, refrescantes bebidas y un excelente servicio. Pistones será el lugar al que siempre quieres regresar.
+			</p>
 		</div>
 	</div>
 
@@ -24,7 +27,9 @@
 			<div class="text-container">
 				<h2 class="chunk naranja concepto">CONCEPTO</h2>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus nam fugiat inventore vero quibusdam error et dolores, sequi aliquam reprehenderit possimus odit beatae suscipit facere repudiandae fugit excepturi, fuga obcaecati!
+					Un lugar único, divertido, original y 100% mexicano. Pistones® es el lugar perfecto para pasarla bien entre amigos. <br><br>
+					Una mezcla de decoración inspirada en el automovilismo, deliciosa comida, bebidas bien frías, buen ambiente y el mejor servicio, sazonada con los mejores partidos deportivos y tu música favorita. <br><br>
+					En el Taller, la diversión, riquísimos platillos y la compañía de familiares y amigos convierten tu experiencia Pistones® en una que vas a querer repetir.
 				</p>
 			</div>
 		</div>
@@ -43,7 +48,9 @@
 			<div class="text-container">
 				<figure class="title"><img class="taller_deportes" src="images/taller_de_los_deportes.svg" alt="El taller de los deportes"></figure>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus nam fugiat inventore vero quibusdam error et dolores, sequi aliquam reprehenderit possimus odit beatae suscipit facere repudiandae fugit excepturi, fuga obcaecati!
+					Los deportes tienen su casa en Pistones®, aquí se encuentra el mejor ambiente para disfrutar todos los eventos deportivos. <br><br>
+					Ya sea con amigos ó familia, la experiencia de vivir los deportes en el Taller es sinónimo de diversión. ¿NFL? ¿futbol? ¿UFC? ¡lo que quieras ver! <br><br>
+					Además, el Taller esta equipado para que vivas una experiencia audiovisual sin igual que te hará querer regresar una y mil veces más.
 				</p>
 			</div>
 		</div>

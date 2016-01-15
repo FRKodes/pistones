@@ -22,7 +22,9 @@
 				<div class="text-container">
 					<figure class="title"><img src="images/cuidado_comida_adictiva_naranja.svg" alt="Pistones Garage ¡Cuidado comida adictiva!"></figure>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus nam fugiat inventore vero quibusdam error et dolores, sequi aliquam reprehenderit possimus odit beatae suscipit facere repudiandae fugit excepturi, fuga obcaecati!
+						Cada uno de nuestros platillos nos hace sentir orgullosos. <br><br>
+						En Pistones® nuestros clientes se llevan mucho más que una deliciosa burger artesanal, se llevan una experiencia única. Nuestros mecánicos trabajan para calibrar todo a la perfección, seleccionando el mejor pan artesanal, ingredientes frescos y la mejor carne. <br><br>
+						Cada platillo es preparado por manos expertas que cuidan cada detalle y agregan el toque especial del Taller.
 					</p>
 				</div>
 			</div>
@@ -46,9 +48,7 @@
 			<div class="col-sm-4">
 				<div class="text-container">
 					<figure class="title"><img class="livesports" src="images/live_sports.svg" alt="Pistones Garage Livesports"></figure>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus nam fugiat inventore vero quibusdam error et dolores, sequi aliquam reprehenderit possimus odit beatae suscipit facere repudiandae fugit excepturi, fuga obcaecati!
-					</p>
+					<p>Ya sea con amigos ó familia, la experiencia de vivir los deportes en el Taller es sinónimo de diversión. ¿NFL? ¿futbol? ¿UFC? ¡lo que quieras ver!</p>
 				</div>
 			</div>
 			<div class="col-sm-8">

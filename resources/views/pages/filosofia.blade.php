@@ -13,7 +13,9 @@
 			<div class="text-container first">
 				<h1 class="chunk">COMPROMISO<br><span>CON LA CALIDAD</span></h1>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus nam fugiat inventore vero quibusdam error et dolores, sequi aliquam reprehenderit possimus odit beatae suscipit facere repudiandae fugit excepturi, fuga obcaecati!
+					La cocina es una parte importante de nuestra propuesta. <br><br>
+					Nuestro compromiso es llevarte hasta tu mesa productos siempre frescos y de la mejor calidad. Comida clásica americana con el sazón especial del Taller, ingredientes frescos y carne 100% sonorense. <br><br>
+					Esto nos hace fuertes, porque en Pistones® el sabor sí importa.
 				</p>
 			</div>
 		</div>
@@ -29,7 +31,9 @@
 			<div class="text-container">
 				<h2 class="chunk">RESPONSABILIDAD<br><span>SOCIAL</span><br><span class="two">COMUNITARIA</span></h2>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus nam fugiat inventore vero quibusdam error et dolores, sequi aliquam reprehenderit possimus odit beatae suscipit facere repudiandae fugit excepturi, fuga obcaecati!
+					En Pistones buscamos dejar un impacto positivo en la comunidad. Vivimos en un proceso de mejora continua, con el objetivo de optimizar nuestros recursos y reducir la huella ecológica para evitar un impacto negativo en nuestro planeta.  <br> <br>
+					Utilizamos bolsas biodegradables, sistemas ahorradores de energía y un programa interno de integración social que no tolera la discriminación. Somos mucho más que un restaurante. <br> <br>
+					En Pistones® la diversión es para todos, por eso creamos el programa Tarde de Pequeños Mecánicos donde niños que pertenecen a asociaciones civiles viven la experiencia Pistones®. Esta actividad parte de nuestro compromiso con la sociedad.
 				</p>
 			</div>
 		</div>
@@ -43,7 +47,7 @@
 			<div class="text-container">
 				<h2 class="chunk">CULTURA<br><span class="two">PISTONES&copy;</span></h2>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus nam fugiat inventore vero quibusdam error et dolores, sequi aliquam reprehenderit possimus odit beatae suscipit facere repudiandae fugit excepturi, fuga obcaecati!
+					Nuestros clientes son el motor que nos mueve, lo que nos inspira a ser mejores cada día y trabajamos para crear historias únicas, momentos mágicos y clientes satisfechos. Nuestro principal objetivo es generar experiencias extraordinarias, en cada Taller, cada detalle, cada comida, cada bebida y cada conversación.
 				</p>
 			</div>
 		</div>

@@ -1,4 +1,5 @@
 <div class="inner-back">
+	<div class="icon-b"></div>
 	<div class="follow-us">
 		<img src="images/siguenos.svg" alt="siguenos en redes sociales">
 	</div>
