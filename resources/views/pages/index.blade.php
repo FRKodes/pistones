@@ -12,7 +12,7 @@
 	</div> --}}
 
 	<section class="big-background">
-	    <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=Qn3dgTh3-Tw',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}"></a>	    
+	    <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=Jrj0Tap8dmc',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}"></a>	    
 	    <div class="pattern"></div> 
 	</section>
 	

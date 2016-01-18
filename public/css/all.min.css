@@ -11966,6 +11966,10 @@ footer .disclaimer a {
 }
 
 @media screen and (min-width: 1000px) {
+  iframe {
+    height: 500px;
+  }
+
   h1.chunk {
     font-size: 2.6em;
   }

@@ -38,7 +38,7 @@
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-8 pull-left">
-			<iframe width="640" height="360" src="https://www.youtube.com/embed/Osn9S97HWYA?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+			<iframe width="640" height="360" src="https://www.youtube.com/embed/JZu8q5kiCuE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
 
