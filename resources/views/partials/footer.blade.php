@@ -15,7 +15,7 @@
 		<p>
 			Copyright &copy; <?php echo date('Y') ?> Pistones Garage <br>
 			Todos los derechos reservados <br>
-			<a href="#">Aviso de privacidad</a>
+			<a href="pdf/aviso_de_privacidad_pistones.pdf" target="_blank" title="Ver aviso de privacidad">Aviso de privacidad</a>
 		</p>
 
 	</div>
