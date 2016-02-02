@@ -12,28 +12,24 @@
 	</div> --}}
 
 	<section class="big-background">
-	    <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=Jrj0Tap8dmc',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}"></a>	    
+		<a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=8FEh9IbTQyM',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}"></a>	    
 	    <div class="pattern"></div> 
 	</section>
 	
 	<div class="container-fluid">
 		<div class="container">
-			<div class="col-sm-4">
+			<div class="col-sm-5">
 				<div class="text-container">
 					<figure class="title"><img src="images/cuidado_comida_adictiva_naranja.svg" alt="Pistones Garage ¡Cuidado comida adictiva!"></figure>
-					<p>
-						Cada uno de nuestros platillos nos hace sentir orgullosos. <br><br>
-						En Pistones® nuestros clientes se llevan mucho más que una deliciosa burger artesanal, se llevan una experiencia única. Nuestros mecánicos trabajan para calibrar todo a la perfección, seleccionando el mejor pan artesanal, ingredientes frescos y la mejor carne. <br><br>
-						Cada platillo es preparado por manos expertas que cuidan cada detalle y agregan el toque especial del Taller.
-					</p>
+					<p>Una mezcla de decoración inspirada en el automovilismo, comida estilo americana altamente adictiva, drinks perfectamente calibrados, buen ambiente y un servicio personal y humano, sazonada con los mejores eventos deportivos y una propuesta musical actual y de vanguardia.En PISTONES® el sabor sí importa.</p>
 				</div>
 			</div>
-			<div class="col-sm-8">
+			<div class="col-sm-7">
 				<div class="product-slider">
-					<div class="item"><img src="images/comida-pistones-01.png" alt="comida pistones Burger Ferrari."></div>
-					<div class="item"><img src="images/comida-pistones-02.png" alt="comida pistones armadora, aros de cebolla, ppas gajo, macho nachos y boneless."></div>
-					<div class="item"><img src="images/comida-pistones-03.png" alt="comida pistones 4x4."></div>
-					<div class="item"><img src="images/comida-pistones-04.png" alt="comida pistones malteada, chocoholic."></div>
+					<div class="item"><img src="images/comida-pistones-01.jpg" alt="comida pistones 01"></div>
+					<div class="item"><img src="images/comida-pistones-02.jpg" alt="comida pistones 02"></div>
+					<div class="item"><img src="images/comida-pistones-03.jpg" alt="comida pistones 03"></div>
+					<div class="item"><img src="images/comida-pistones-04.jpg" alt="comida pistones 04"></div>
 				</div>
 			</div>
 		</div>
@@ -45,15 +41,15 @@
 	
 	<div class="container-fluid">
 		<div class="container p-up-down-40px livesports">
-			<div class="col-sm-4">
+			<div class="col-sm-5">
 				<div class="text-container">
 					<figure class="title"><img class="livesports" src="images/live_sports.svg" alt="Pistones Garage Livesports"></figure>
-					<p>Ya sea con amigos ó familia, la experiencia de vivir los deportes en el Taller es sinónimo de diversión. ¿NFL? ¿futbol? ¿UFC? ¡lo que quieras ver!</p>
+					<p>Los deportes tienen su casa en PISTONES® El Taller es un lugar único, divertido, original y 100% mexicano. PISTONES® es el lugar ideal para pasarla bien entre familia y amigos.</p>
 				</div>
 			</div>
-			<div class="col-sm-8">
+			<div class="col-sm-7">
 				<div class="product-slider">
-					<div class="item"><img src="images/pistones-livesports-01.jpg" alt="pistones livesports, el mejor ambiente"></div>
+					<div class="item"><img src="images/livesports.jpg" alt="pistones livesports, el mejor ambiente"></div>
 				</div>
 			</div>
 		</div>

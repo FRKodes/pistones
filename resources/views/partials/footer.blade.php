@@ -15,7 +15,7 @@
 		<p>
 			Copyright &copy; <?php echo date('Y') ?> Pistones Garage <br>
 			Todos los derechos reservados <br>
-			<a href="pdf/aviso_de_privacidad_pistones.pdf" target="_blank" title="Ver aviso de privacidad">Aviso de privacidad</a>
+			Aviso de privacidad <a href="pdf/privacidad-pistones-hmo.pdf" target="_blank" title="Ver aviso de privacidad Hermosillo">Hmo</a> / <a href="pdf/aviso_de_privacidad_pistones.pdf" target="_blank" title="Ver aviso de privacidad Guadalajara">Gdl</a>
 		</p>
 
 	</div>
