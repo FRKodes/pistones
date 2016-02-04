@@ -69,34 +69,37 @@ body
 		color white
 	.navbar-nav>li>a.active
 		color naranja
-
-.banner-video
-	background transparent url(../../images/franquicia.jpg) no-repeat 45.7% top
+.big-background
+	height 400px !important
+	background black url(../../images/pistones-garage-sucursal-toscana.jpg) no-repeat 50% 50% !important
 	background-size cover
+// .banner-video
+// 	background transparent url(../../images/franquicia.jpg) no-repeat 45.7% top
+// 	background-size cover
+// 	height auto
+// 	overflow hidden
+// 	position relative
+// 	.play
+// 		background rgba(white, .7)
+// 		border-radius 50%
+// 		height 80px
+// 		left 50%
+// 		margin-left -40px
+// 		margin-top -40px
+// 		position absolute
+// 		text-align center
+// 		top 50%
+// 		vertical-align middle
+// 		width 80px
+.burger-love
 	height auto
 	overflow hidden
 	position relative
-	.play
-		background rgba(white, .7)
-		border-radius 50%
-		height 80px
-		left 50%
-		margin-left -40px
-		margin-top -40px
-		position absolute
-		text-align center
-		top 50%
-		vertical-align middle
-		width 80px
-	.burger-love
-		bottom -70px
-		height auto
-		overflow hidden
-		position absolute
-		text-align center
-		width 90%
-		img
-			width 285px
+	text-align center
+	width 100%
+	margin-top 190px
+	img
+		width 285px
 .text-container
 	background white
 	margin-bottom 30px
@@ -439,6 +442,8 @@ footer
 	.pattern
 	.big-background
 	    height 600px
+	// .big-background-default-image
+	// 	background none !important
 	.text-container
 		margin-top 0px
 		padding-top 10px
@@ -458,6 +463,8 @@ footer
 		font-size 2.5em
 	.text-container .title img.taller_deportes
 		margin-top -50px
+	.t-deportes
+		float right
 	footer
 		.inner-back
 			.icon-b
@@ -548,6 +555,11 @@ footer
 		img
 			width 450px
 			margin-top -72px
+	/*Filosofía*/
+	h1.chunk
+		font-size 3.3em
+	h2.chunk
+		font-size 2.5em
 	/*acerca de 1000*/
 	h2.concepto
 		font-size 3.3em
@@ -562,6 +574,10 @@ footer
 			img
 				margin-top -45px
 				width 350px
+	h2.chunk.botana
+		font-size 4em
+	h2.chunk.antoja
+		font-size 3em
 	/*Franquicia*/
 	.slider-franquicia
 		top 250px
@@ -587,6 +603,19 @@ footer
 				img
 					margin-top -41px
 					width 140px
+	.big-background
+		background transparent !important
+		height 600px !important
+	.burger-love
+		img
+			width 550px
+	/*Filosofía*/
+	h1.chunk
+		font-size 4em
+	h2.chunk
+		font-size 3em
+		&.concepto
+			font-size 4em
 	/*Franquicia*/
 	.franquicia
 		h1
@@ -594,3 +623,8 @@ footer
 			margin-top -10px
 	.container.black.relative
 		padding-bottom 100px
+	/*Cocina*/
+	h2.chunk.botana
+		font-size 4.7em
+	h2.chunk.antoja
+		font-size 3.6em

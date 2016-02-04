@@ -14,7 +14,7 @@
 			</div>
 		</div>
 		<div class="col-sm-12 back_naranja last">
-			<p>En Pistones® el sabor sí importa, por eso fusionamos la clásica cocina americana con nuestro toque especial. Burgers hechas con pan artesanal y carne 100% sonorense, alitas en su punto, listas para que elijas tu salsa favorita ¿picante?, ¿BBQ? ¡Como a ti te gusta! Crujientes pizzas hechas al momento y deliciosos postres originales. </p>
+			<p class="col-md-8 col-md-offset-2 text-center">En Pistones® el sabor sí importa, por eso fusionamos la clásica cocina americana con nuestro toque especial. Burgers hechas con pan artesanal y carne 100% sonorense, alitas en su punto, listas para que elijas tu salsa favorita ¿picante?, ¿BBQ?</p>
 		</div>
 	</div>
 
@@ -78,6 +78,9 @@
 				<div class="item"><img src="images/cocina-algo-mas-02.jpg" alt="cocina algo mas 02"></div>
 				<div class="item"><img src="images/cocina-algo-mas-03.jpg" alt="cocina algo mas 03"></div>
 				<div class="item"><img src="images/cocina-algo-mas-04.jpg" alt="cocina algo mas 04"></div>
+				<div class="item"><img src="images/cocina-algo-mas-05.jpg" alt="cocina algo mas 05"></div>
+				<div class="item"><img src="images/cocina-algo-mas-06.jpg" alt="cocina algo mas 06"></div>
+				<div class="item"><img src="images/cocina-algo-mas-07.jpg" alt="cocina algo mas 07"></div>
 			</div>
 		</div>
 	</div>

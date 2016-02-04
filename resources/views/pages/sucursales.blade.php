@@ -17,12 +17,14 @@
 						Av. Américas 1551-A (Hotel Fiesta Americana Grand) <br>
 						Col. Providencia, C.P. 44630
 					</p>
-					<figure class="map"><img src="images/mapa-01.png" alt="mapa"></figure>
+					<a href="https://www.google.com.mx/maps/place/Pistones/@20.7029241,-103.3786305,17z/data=!3m1!4b1!4m2!3m1!1s0x8428ae36b5f366f9:0x3dcb2798f8c70c14" target="_blank" title="Ver la ubicación de Pistones Garage Américas en Google Maps">
+						<figure class="map"><img src="images/mapa-pistones-garage-americas.jpg" alt="mapa pistones garage americas"></figure>
+					</a>
 				</div>
 			</div>
 			<div class="col-sm-8">
 				<div class="product-slider">
-					<div class="item"><img src="images/pistones-garage-concepto01.jpg" alt="pistones garage concepto 01"></div>
+					<div class="item"><img src="images/pistones-garage-sucursal-americas.jpg" alt="pistones garage sucursal americas"></div>
 				</div>
 			</div>
 		</div>
@@ -36,7 +38,9 @@
 						Av. Santa Margarita 3849 (casi esquina con Av. Servidor Público) <br>
 						Col. Valle Real
 					</p>
-					<figure class="map"><img src="images/mapa-01.png" alt="mapa"></figure>
+					<a href="https://www.google.com.mx/maps/place/Pistones+Food+&+Drink+Garage+Toscana/@20.7295053,-103.4338331,17z/data=!3m1!4b1!4m2!3m1!1s0x8428af4083514463:0xaa318eb99a71dfb" target="_blank" title="Ver la ubicación de Pistones Garage Toscana en Google Maps">
+						<figure class="map"><img src="images/mapa-pistones-garage-toscana.jpg" alt="mapa pistones garage toscana"></figure>
+					</a>
 				</div>
 			</div>
 			<div class="col-sm-8">
@@ -55,12 +59,14 @@
 						Plaza Antigua, Blvd. Rosales 108 <br>
 						Local B esq. Monterrey, C.P. 83000
 					</p>
-					<figure class="map"><img src="images/mapa-01.png" alt="mapa"></figure>
+					<a href="https://www.google.com.mx/maps/place/PISTONES/@29.0780313,-110.9597198,17z/data=!3m1!4b1!4m2!3m1!1s0x86ce844e9aaa9131:0x56b487f62205f413" target="_blank" title="Ver la ubicación de Pistones Centro Histórico Hermosillo en Google Maps">
+						<figure class="map"><img src="images/mapa-pistones-garage-centro.jpg" alt="mapa pistones garage centro"></figure>
+					</a>
 				</div>
 			</div>
 			<div class="col-sm-8">
 				<div class="product-slider">
-					<div class="item"><img src="images/pistones-garage-sucursal-centrohistorico.jpg" alt="pistones garage sucursal centro histórico Hermosillo."></div>
+					<div class="item"><img src="images/pistones-garage-sucursal-centro-historico.jpg" alt="pistones garage sucursal centro histórico Hermosillo."></div>
 				</div>
 			</div>
 		</div>
@@ -74,7 +80,9 @@
 						Plaza Cantabria, Local 11 <br>
 						Col. La Rioja, C.P. 83240
 					</p>
-					<figure class="map"><img src="images/mapa-01.png" alt="mapa"></figure>
+					<a href="https://www.google.com.mx/maps/place/PISTONES/@29.0827207,-111.0127257,17z/data=!3m1!4b1!4m2!3m1!1s0x145da248c8acba95:0x251a6b07a1b5efa6" target="_blank" title="Ver la ubicación de Pistones Colosio en Google Maps">
+						<figure class="map"><img src="images/mapa-pistones-garage-colosio.jpg" alt="mapa pistones garage colosio"></figure>
+					</a>
 				</div>
 			</div>
 			<div class="col-sm-8">

@@ -12,8 +12,9 @@
 	</div> --}}
 
 	<section class="big-background">
-		<a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=8FEh9IbTQyM',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}"></a>	    
-	    <div class="pattern"></div> 
+		<div class="burger-love"><img src="images/burger_love.svg" alt="Pistones Garage burger love"></div>
+		<a id="bgndVideo" class="player hidden-xs hidden-sm" data-property="{videoURL:'https://www.youtube.com/watch?v=8FEh9IbTQyM',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}"></a>
+	    <div class="pattern hidden-xs hidden-sm hidden-md"></div> 
 	</section>
 	
 	<div class="container-fluid">

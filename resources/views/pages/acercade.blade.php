@@ -15,8 +15,8 @@
 			</div>
 		</div>
 		<div class="col-sm-12">
-			<p>
-				Pistones Food & Drink Garage® nace ante la falta de un lugar extraordinario y divertido a un precio razonable. Inspirado en la historia del automovilismo, Pistones® fue creado para ofrecer experiencias extraordinarias. Un espacio que mezcla historia y actualidad, que reinterpreta un taller mecánico para convertirlo en un lugar de entretenimiento. <br><br>
+			<p class="col-md-8 col-md-offset-2 text-center">
+				Pistones Food &amp; Drink Garage® nace ante la falta de un lugar extraordinario y divertido a un precio razonable. Inspirado en la historia del automovilismo, Pistones® fue creado para ofrecer experiencias extraordinarias. Un espacio que mezcla historia y actualidad, que reinterpreta un taller mecánico para convertirlo en un lugar de entretenimiento. <br><br>
 				En Pistones® el sabor sí importa, por eso hemos creado nuestra propia versión de la clásica cocina americana con un toque especial, perfecto para disfrutarlo en familia o con amigos. Divertida decoración, deliciosa comida, refrescantes bebidas y un excelente servicio. Pistones será el lugar al que siempre quieres regresar.
 			</p>
 		</div>
@@ -29,7 +29,7 @@
 				<p>
 					Porque somos más que un restaurante. <br><br>
 					Somos un concepto que se diseñó pensando en la experiencia que vivirán nuestros clientes. En el Taller la cocina funciona como el motor. Nuestros mecánicos han creado platillos especiales, han reinterpretado la cocina americana y la sirven con una actitud amable y amena, siempre pendientes de los clientes. En el lugar el diseño es de gran valor, desde el mobiliario, los materiales y los más íntimos detalles. Y por supuesto, el ambiente. En PISTONES® complementamos la experiencia con extras que nuestros clientes valoran, una propuesta musical actualizada, eventos, deportes y diversión. Aquí todo fue pensado para ser único. <br><br>
-					PISTONES® ha sido reconocido por medios especializados, como <a href="http://coolhuntermx.com/pistones-garage-sonora/" title="Ver el artículo en COOL HUNTER" target="_blank">COOLHUNTER</a>, que valoran su propuesta de diseño e interiorismo, celebrando la creatividad mexicana y nuestro trabajo para ofrecerle a los clientes un lugar memorable.
+					PISTONES® ha sido reconocido por medios especializados, como <a href="http://coolhuntermx.com/pistones-garage-sonora/" title="Ver el artículo en COOL HUNTER MX" target="_blank">COOLHUNTER MX &copy;</a>, que valoran su propuesta de diseño e interiorismo, celebrando la creatividad mexicana y nuestro trabajo para ofrecerle a los clientes un lugar memorable.
 				</p>
 			</div>
 		</div>
@@ -44,7 +44,7 @@
 	</div>
 
 	<div class="container space deportes">
-		<div class="col-sm-6 col-md-4">
+		<div class="col-sm-6 col-md-4 t-deportes">
 			<div class="text-container">
 				<figure class="title"><img class="taller_deportes" src="images/taller_de_los_deportes.svg" alt="El taller de los deportes"></figure>
 				<p class="sports-p">
