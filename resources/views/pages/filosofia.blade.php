@@ -28,7 +28,7 @@
 	<div class="container">
 		<div class="col-xs-12 col-sm-5 pull-right">
 			<div class="text-container">
-				<h2 class="chunk">RESPONSABILIDAD<br><span>SOCIAL</span><br><span class="two">COMUNITARIA</span></h2>
+				<h2 class="chunk">REPRESENTAMOS ALGO<br><span>BUENO</span><br><span class="two">(RESPONSABILIDAD SOCIAL)</span></h2>
 				<p>
 					Formamos parte de una comunidad y es nuestro compromiso participar dentro de ella. <br><br>
 					En PISTONES® la diversión es para todos, por eso creamos el programa Tarde de Pequeños Mecánicos donde niños que pertenecen a asociaciones civiles viven la experiencia PISTONES®. Esta actividad parte de nuestro compromiso con la sociedad. <br><br>
@@ -44,8 +44,8 @@
 	<div class="container p-up-down-40px">
 		<div class="col-sm-5">
 			<div class="text-container">
-				<figure class="title"><img src="images/cultura_pistones.svg" alt="cultura pistones"></figure>
-				<p>
+				<figure class="title"><img class="culture_svg" src="images/cultura_pistones.svg" alt="cultura pistones"></figure>
+				<p class="culture-p">
 					El motor del Taller son nuestros mecánicos. <br><br>
 					En el Taller tenemos una cultura profesional definida, nuestro principal enfoque es al interior de nuestra marca. <br><br>
 					Nuestros colaboradores son nuestro valor más importante, por eso los llamamos “Mecánicos” ya que son el motor que hace realidad la operación de nuestro negocio. Por eso nos aseguramos de invertir en su preparación y darles la bienvenida a nuestra comunidad. <br><br>

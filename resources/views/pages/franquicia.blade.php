@@ -15,7 +15,7 @@
 		</div>
 		<div class="col-sm-6">
 			<p>
-				En Pistones Food & Drink Garage® se vive una experiencia extraordinaria. Nos hemos esforzado por crear un concepto único, mexicano pero con influencia internacional. Todo pensado para superar las expectativas del mercado. <br><br>
+				En Pistones Food &amp; Drink Garage® se vive una experiencia extraordinaria. Nos hemos esforzado por crear un concepto único, mexicano pero con influencia internacional. Todo pensado para superar las expectativas del mercado. <br><br>
 				Desde que llegas a Pistones® te recibe un ambiente divertido, diseñado a detalle para maximizar la experiencia del Taller. Hemos desarrollado un modelo de negocio único y diferenciador, sostenido en 5 pilares fundamentales:
 			</p>
 
@@ -29,7 +29,7 @@
 		</div>
 		<div class="col-sm-6 slider-franquicia">
 			<div class="product-slider">
-				<div class="item"><img src="images/filosofia-cultura-pistones-01.jpg" alt="filosofia cultura pistones 01"></div>
+				<div class="item"><img src="images/franquicia-pistones-garage.jpg" alt="franquicia pistones garage"></div>
 			</div>
 		</div>
 	</div>
