@@ -4,7 +4,7 @@
 			<div class="icon-b"></div>
 		</div>
 		<div class="row">
-			<div class="col-sm-4 col-md-3">
+			<div class="col-sm-4 col-md-3 up-this-one">
 				<div class="follow-us">
 					<img src="images/siguenos.svg" alt="siguenos en redes sociales">
 				</div>
@@ -14,7 +14,7 @@
 					<li><a target="_blank" title="Contáctanos" href="mailto:info@pistonesgarage.com" class="icon-f"></a></li>
 				</ul>
 			</div>
-			<div class="col-sm-4 col-md-3 col-sm-offset-4 col-md-offset-6">
+			<div class="col-sm-4 col-md-3 col-sm-offset-4 col-md-offset-6 up-this-one">
 				<div class="eleanor">
 					<img src="images/eleanor.svg" alt="Logo eleanor">
 				</div>
