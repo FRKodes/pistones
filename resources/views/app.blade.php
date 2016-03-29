@@ -13,6 +13,6 @@
 		@include('partials.footer')
 	</footer>
 	<script src="{{ elixir('js/all.min.js') }}"></script>
-
+	@include('partials.google')
 </body>
 </html>
