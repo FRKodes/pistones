@@ -14,5 +14,6 @@
 	</footer>
 	<script src="{{ elixir('js/all.min.js') }}"></script>
 	@include('partials.google')
+	@include('partials.facebook')
 </body>
 </html>
