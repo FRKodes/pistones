@@ -16,7 +16,7 @@
 			</div>
 			<div class="col-sm-4 col-md-3 col-sm-offset-4 col-md-offset-6 up-this-one">
 				<div class="eleanor">
-					<a href="www.grupoeleanor.com" title="Ir al sitio de Grupo eleanor" target="_blank"><img src="images/eleanor.svg" alt="Logo eleanor"></a>
+					<a href="http://www.grupoeleanor.com" title="Ir al sitio de Grupo eleanor" target="_blank"><img src="images/eleanor.svg" alt="Logo eleanor"></a>
 				</div>
 				<div class="disclaimer">
 					<p>
