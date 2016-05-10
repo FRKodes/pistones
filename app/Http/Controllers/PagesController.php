@@ -39,9 +39,8 @@ class PagesController extends Controller {
 	public function sendmail(){
 		Mail::send('emails.contacto', [], function($message)
 		{
-		    // $message->to('hola@pistonesgarage.com', 'Pistones Garage')->subject('Contacto Pistones Franquicia');
-		    $message->to('frkalderon@gmail.com', 'Pistones Garage')->subject('Contacto Pistones Franquicia');
-
+		    $message->to('hola@pistonesgarage.com', 'Pistones Garage')->bcc('tony@brandtelier.com')->subject('Contacto Pistones Franquicia');
+		    // $message->to('frkalderon@gmail.com', 'Pistones Garage')->subject('Contacto Pistones Franquicia');
 		});
 	}
 
