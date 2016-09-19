@@ -9,4 +9,4 @@
 <meta property="og:description" content="!Somos el taller de los deportes con comida altamente adictiva y drinks perfectamente calibrados!.">
 <meta property="og:site_name" content="Pistones Garage">
 <link rel="icon" href="favicon.png" type="image/png" sizes="32x32">
-<title>@yield('titlePage', 'el taller de los deportes') - PISTONES GARAGE Food and Drink</title>
+<title>@yield('titlePage', 'El taller de los deportes') - PISTONES GARAGE Food and Drink</title>
