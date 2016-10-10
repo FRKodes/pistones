@@ -53,6 +53,27 @@
 		<div class="row">
 			<div class="col-sm-4">
 				<div class="text-container">
+					<h2 class="chunk naranja">Cd. Guzmán, Jalisco.</h2>
+					<p>
+						Tel. (341) 412-7787 <br>
+						Calle Colón 120 <br>
+						Ciudad Guzmán, C.P. 49000<br>
+					</p>
+					<a href="https://www.google.com.mx/maps/place/Pistones+Food+%26+Drink+Garage/@19.7062805,-103.4644195,17z/data=!3m1!4b1!4m5!3m4!1s0x842f86a4b1cfaa19:0x8b71542e834fdcc!8m2!3d19.7062805!4d-103.4622308" target="_blank" title="Ver la ubicación de Pistones Cd. Guzmán en Google Maps">
+						<figure class="map"><img src="images/mapa-pistones-garage-guzman-mapa.jpg" alt="mapa pistones garage cd guzman"></figure>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-8">
+				<div class="product-slider">
+					<div class="item"><img src="images/cd_guzman.jpg" alt="pistones garage sucursal Cd. Guzmán Jalisco."></div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="text-container">
 					<h2 class="chunk naranja">Hermosillo, Sonora: Centro histórico</h2>
 					<p>
 						Tel. (662) 212-0997 <br>
@@ -70,7 +91,7 @@
 				</div>
 			</div>
 		</div>
-
+		
 		<div class="row">
 			<div class="col-sm-4">
 				<div class="text-container">
@@ -91,7 +112,26 @@
 				</div>
 			</div>
 		</div>
-
+		
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="text-container">
+					<h2 class="chunk naranja">Culiacán, Sinaloa.</h2>
+					<p>
+						Próximamente... <br>
+						Plaza Tres Ríos
+					</p>
+					<a href="https://www.google.com.mx/maps/place/Plaza+Tres+Rios/@24.830703,-107.4012797,17z/data=!3m1!4b1!4m5!3m4!1s0x86bcda10db7959ef:0x98a9ea828c5b7ed3!8m2!3d24.830703!4d-107.399091" target="_blank" title="Ver la ubicación de Pistones Culiacán en Google Maps">
+						<figure class="map"><img src="images/culiacan_mapa.jpg" alt="mapa pistones garage Culiacán"></figure>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-8">
+				<div class="product-slider">
+					<div class="item"><img src="images/pistones-garage-sucursal-culiacan.jpg" alt="pistones garage sucursal Culiacán"></div>
+				</div>
+			</div>
+		</div>
 
 	</div>	
 
