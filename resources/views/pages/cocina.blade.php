@@ -23,9 +23,9 @@
 	</div>
 
 	<div class="container">
-		<div class="col-sm-6 col-md-5">
+		<div class="col-sm-6 col-md-5 back-black">
 			<div class="text-container p-top-20 text-center">
-				<img class="burger-love" src="images/burger_love_negro.svg" alt="burger love">
+				<img class="burger-love" src="images/amor-a-la-burger.svg" alt="burger love">
 				<p class="text-left">
 					Somos el Taller de la comida altemente adictiva y los drinks perfectamente calibrados, fusionamos nuestro propio estilo y la clásica comida americana. <br><br>
 					Nunca habías probado una burger tan increíble como la que se hace en el Taller, hechas con exqusito pan artesanal horneado al día, carne a la parrilla 100% sonorense de la mejor calidad e ingredientes siempre frescos y elegidos cuidadosamente por los mecánicos de cocina.
@@ -34,11 +34,12 @@
 		</div>
 		<div class="col-sm-6 col-md-7">
 			<div class="product-slider">
-				<div class="item"><img src="images/cocina-burger-love-01.jpg" alt="cocina burger love 01"></div>
-				<div class="item"><img src="images/cocina-burger-love-02.jpg" alt="cocina burger love 02"></div>
-				<div class="item"><img src="images/cocina-burger-love-03.jpg" alt="cocina burger love 03"></div>
-				<div class="item"><img src="images/cocina-burger-love-04.jpg" alt="cocina burger love 04"></div>
-				<div class="item"><img src="images/cocina-burger-love-05.jpg" alt="cocina burger love 05"></div>
+				<div class="item"><img src="images/cocina-burger-love-00.jpg" alt="pistones garage cocina burger love 00"></div>
+				<div class="item"><img src="images/cocina-burger-love-01.jpg" alt="pistones garage cocina burger love 01"></div>
+				<div class="item"><img src="images/cocina-burger-love-02.jpg" alt="pistones garage cocina burger love 02"></div>
+				<div class="item"><img src="images/cocina-burger-love-03.jpg" alt="pistones garage cocina burger love 03"></div>
+				<div class="item"><img src="images/cocina-burger-love-04.jpg" alt="pistones garage cocina burger love 04"></div>
+				<div class="item"><img src="images/cocina-burger-love-05.jpg" alt="pistones garage cocina burger love 05"></div>
 			</div>
 		</div>
 	</div>
@@ -61,7 +62,7 @@
 	</div>
 
 	<div class="container p-up-down-40px">
-		<div class="col-sm-6 col-md-5">
+		<div class="col-sm-6 col-md-5 back-black">
 			<div class="text-container">
 				<h2 class="chunk naranja antoja">¿SE TE ANTOJA<br><span>ALGO MÁS?</span></h2>
 				<p>

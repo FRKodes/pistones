@@ -56,7 +56,7 @@
 		<div class="col-sm-6 col-md-8">
 			<div class="product-slider-2">
 				<div class="item"><img src="images/pistones-garage-deportes-04.jpg" alt="pistones  garage, el taller de los deportes 04"></div>
-				<div class="item"><img src="images/pistones-garage-deportes-02.jpg" alt="pistones  garage, el taller de los deportes 02"></div>
+				<div class="item"><img src="images/pistones-garage-deportes-03.jpg" alt="pistones  garage, el taller de los deportes 03"></div>
 				<div class="item"><img src="images/pistones-garage-deportes-01.jpg" alt="pistones  garage, el taller de los deportes 01"></div>
 			</div>
 		</div>

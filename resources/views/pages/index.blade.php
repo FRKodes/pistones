@@ -27,10 +27,10 @@
 			</div>
 			<div class="col-sm-7">
 				<div class="product-slider">
-					<div class="item"><img src="images/comida-pistones-01.jpg" alt="comida pistones 01"></div>
-					<div class="item"><img src="images/comida-pistones-02.jpg" alt="comida pistones 02"></div>
-					<div class="item"><img src="images/comida-pistones-03.jpg" alt="comida pistones 03"></div>
-					<div class="item"><img src="images/comida-pistones-04.jpg" alt="comida pistones 04"></div>
+					<div class="item"><img src="images/cuidado-comida-altamente-adictiva-01.jpg" alt="comida altamente adictiva  pistones food and drink garage 01"></div>
+					<div class="item"><img src="images/cuidado-comida-altamente-adictiva-02.jpg" alt="comida altamente adictiva  pistones food and drink garage 02"></div>
+					<div class="item"><img src="images/cuidado-comida-altamente-adictiva-03.jpg" alt="comida altamente adictiva  pistones food and drink garage 03"></div>
+					<div class="item"><img src="images/cuidado-comida-altamente-adictiva-04.jpg" alt="comida altamente adictiva  pistones food and drink garage 04"></div>
 				</div>
 			</div>
 		</div>
