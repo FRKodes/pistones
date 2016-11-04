@@ -2,6 +2,10 @@
   font-family: 'chunkfiveroman';
 }
 
+.chunk.title-cultura {
+  font-size: 20px;
+}
+
 .container-fluid {
   background: transparent url("../../images/background.jpg") repeat center top;
 }
@@ -81,6 +85,25 @@ body {
 .navbar-default.shadow {
   background: rgba(0,0,0,0.85);
   transition: background 1s ease;
+}
+
+.navbar-default .navbar-nav>.open>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+  background: #000;
+  color: #fff;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+  color: rgba(255,255,255,0.9);
 }
 
 .navbar-default .navbar-toggle {
@@ -229,6 +252,10 @@ body {
   background: transparent url("../../images/filosofia.jpg") no-repeat center top;
 }
 
+.inner-banner.cultura {
+  background: transparent url("../../images/cultura.jpg") no-repeat center top;
+}
+
 .inner-banner.acercade {
   background: transparent url("../../images/acerca_de.jpg") no-repeat center top;
 }
@@ -251,6 +278,14 @@ body {
 
 .inner-banner .inner-title {
   margin-top: 150px;
+}
+
+.inner-banner .inner-title.cultura-title {
+  margin-top: 220px;
+}
+
+.inner-banner .inner-title.cultura-title img {
+  width: 370px;
 }
 
 .culture-p {
@@ -523,6 +558,26 @@ footer .eleanor img {
   margin-top: -60px;
 }
 
+.text-container img#cultura-pistones-badge {
+  width: 280px;
+  margin: 0;
+}
+
+.text-container img.nuestros-objetivos {
+  width: 280px;
+  margin-top: 20px;
+}
+
+.text-container img.innovacion {
+  margin-top: 20px;
+}
+
+.text-container img.cuatro_p {
+  width: 110px;
+  margin: 10px auto;
+  display: block;
+}
+
 @media screen and (min-width: 480px) {
   h1.chunk {
     font-size: 3.7em;
@@ -593,6 +648,10 @@ footer .eleanor img {
 }
 
 @media screen and (min-width: 768px) {
+  .chunk.title-cultura {
+    font-size: 30px;
+  }
+
   .container {
     padding-bottom: 25px;
     padding-top: 15px;
@@ -628,6 +687,15 @@ footer .eleanor img {
     letter-spacing: 1px;
   }
 
+  .navbar-default .navbar-nav>.open>a {
+    background: rgba(0,0,0,0.9);
+  }
+
+  .dropdown-menu {
+    background: rgba(0,0,0,0.9);
+    border: 1px solid #000;
+  }
+
   .navbar-default .navbar-nav>.active>a {
     color: #f5841f;
     background: transparent;
@@ -655,6 +723,10 @@ footer .eleanor img {
 
   .navbar-default .navbar-nav {
     float: none;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    background: none;
   }
 
   .navbar-default .navbar-nav li {
@@ -847,6 +919,28 @@ footer .eleanor img {
 
   .culture-p {
     margin-top: -60px;
+  }
+
+  .inner-banner .inner-title.cultura-title img {
+    width: 440px;
+  }
+
+  .text-container img#cultura-pistones-badge {
+    width: 240px;
+  }
+
+  .text-container img.nuestros-objetivos {
+    width: 90%;
+    margin-top: -20px;
+  }
+
+  .text-container img.innovacion {
+    width: 90%;
+    margin-top: 0px;
+  }
+
+  .text-container img.cuatro_p {
+    width: 140px;
   }
 }
 

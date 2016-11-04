@@ -2,6 +2,8 @@ naranja = #F5841F
 turquesa = #02E0E1
 .chunk
 	font-family 'chunkfiveroman'
+	&.title-cultura
+		font-size 20px
 .container-fluid
 	background transparent url(../../images/background.jpg) repeat center top
 .back-black
@@ -52,6 +54,17 @@ body
 	&.shadow
 		background rgba(black, .85)
 		transition background 1s ease
+	.navbar-nav>.open>a
+		color white
+	.navbar-nav>.open>a
+	.navbar-nav>.open>a:focus
+	.navbar-nav>.open>a:hover
+		background black
+		color white
+	.navbar-nav .open .dropdown-menu>li>a
+		color white
+		&:hover
+			color rgba(white, .9)
 	.navbar-toggle
 		border none
 		.icon-bar
@@ -165,6 +178,8 @@ body
 	background-size cover
 	&.filosofia
 		background transparent url(../../images/filosofia.jpg) no-repeat center top
+	&.cultura
+		background transparent url(../../images/cultura.jpg) no-repeat center top
 	&.acercade
 		background transparent url(../../images/acerca_de.jpg) no-repeat center top
 	&.clubpistones
@@ -177,7 +192,10 @@ body
 		background transparent url(../../images/franquicia.jpg) no-repeat center top
 	.inner-title
 		margin-top 150px
-
+		&.cultura-title
+			margin-top 220px
+			img
+				width 370px
 .culture-p
 	margin-top -50px
 
@@ -352,7 +370,20 @@ footer
 		overflow hidden
 		img
 			margin-top -60px
-
+.text-container
+	img
+		&#cultura-pistones-badge
+			width 280px
+			margin 0
+		&.nuestros-objetivos
+			width 280px
+			margin-top 20px
+		&.innovacion
+			margin-top 20px
+		&.cuatro_p
+			width 110px
+			margin 10px auto
+			display block
 @media screen and (min-width:480px)
 	h1.chunk
 		font-size 3.7em
@@ -400,6 +431,9 @@ footer
 	.culture-p
 		margin-top -80px
 @media screen and (min-width:768px)
+	.chunk
+		&.title-cultura
+			font-size 30px
 	.container
 		padding-bottom 25px
 		padding-top 15px
@@ -419,6 +453,11 @@ footer
 		.navbar-nav
 			padding-top 10px
 			letter-spacing 1px
+		.navbar-nav>.open>a
+			background rgba(black, .9)
+	.dropdown-menu
+		background rgba(black, .9)
+		border 1px solid black
 	.navbar-default .navbar-nav>.active>a
 		color naranja
 		background transparent
@@ -438,6 +477,8 @@ footer
 				background transparent
 		.navbar-nav
 			float none
+			.open .dropdown-menu>li>a:hover
+				background none
 			li
 				display inline-block
 				float none
@@ -563,6 +604,23 @@ footer
 		margin-top -70px
 	.culture-p
 		margin-top -60px
+	.inner-banner
+		.inner-title
+			&.cultura-title
+				img
+					width 440px
+	.text-container
+		img
+			&#cultura-pistones-badge
+				width 240px
+			&.nuestros-objetivos
+				width 90%
+				margin-top -20px
+			&.innovacion
+				width 90%
+				margin-top 0px
+			&.cuatro_p
+				width 140px
 @media screen and (min-width:1000px)
 	iframe
 		height 500px

@@ -16,6 +16,10 @@ class PagesController extends Controller {
 		return View('pages.filosofia');
 	}
 	
+	public function cultura(){
+		return View('pages.cultura');
+	}
+	
 	public function acercade(){
 		return View('pages.acercade');
 	}
