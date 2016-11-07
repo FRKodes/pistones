@@ -1,8 +1,8 @@
 /*-------------------------------
-    VALIDATE.JS
-    A barebones jQuery validation plugin
-    @author Todd Francis
-    @version 1.0.3
+	VALIDATE.JS
+	A barebones jQuery validation plugin
+	@author Todd Francis
+	@version 1.0.3
 -------------------------------*/
 ;(function(r,d,l){d.fn.validate=function(m){return this.each(function(){var f=d(this);if(l===f.data("validate")){var j=new d.validate(m,f);f.data("validate",j)}})};d.validate=function(m,f){function j(a,b){-1==d.inArray(a,b)&&b.push(a);return b}function p(a){a=a.slice(a.indexOf("[")+1,-1);return-1!==a.indexOf(",")?a.split(","):[a]}function n(a){for(var b=[],c=0;c<a.length;c++){var g=a[c],d=[],h=g.indexOf("[");-1!==h&&(d=d.concat(p(g)),g=g.slice(0,h));b.push({rule:g,args:d})}return b}var h=d.extend(!0,
 {debug:!1,autoDetect:!1,visibleOnly:!0,beforeSubmit:function(){},singleError:function(){},overallError:function(){},singleSuccess:function(){},overallSuccess:function(){},regExp:{alpha:/^[a-zA-Z]*$/,numeric:/^[0-9]*$/,alphanumeric:/^[a-zA-Z0-9]*$/,url:/^(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?$/,email:/^[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9\-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?$/}},
@@ -59,30 +59,31 @@ $( window ).scroll(function() {
 
 
 (function($) {
-    $(document).ready(function() {
-	    /* IF YOU WANT TO APPLY SOME BASIC JQUERY TO REMOVE THE VIDEO BACKGROUND ON A SPECIFIC VIEWPORT MANUALLY
-	     var is_mobile = false;
-	    if( $('.player').css('display')=='none') {
-	        is_mobile = true;       
-	    }
-	    if (is_mobile == true) {
-	        //Conditional script here
-	        $('.big-background, .small-background-section').addClass('big-background-default-image');
-	    }else{
-	        $(".player").mb_YTPlayer(); 
-	    }
-	    });
+	$(document).ready(function() {
+		/* IF YOU WANT TO APPLY SOME BASIC JQUERY TO REMOVE THE VIDEO BACKGROUND ON A SPECIFIC VIEWPORT MANUALLY
+		 var is_mobile = false;
+		if( $('.player').css('display')=='none') {
+			is_mobile = true;       
+		}
+		if (is_mobile == true) {
+			//Conditional script here
+			$('.big-background, .small-background-section').addClass('big-background-default-image');
+		}else{
+			$(".player").mb_YTPlayer(); 
+		}
+		});
 		*/
 		/*  IF YOU WANT TO USE DEVICE.JS TO DETECT THE VIEWPORT AND MANIPULATE THE OUTPUT  */
 
-        //Device.js will check if it is Tablet or Mobile - http://matthewhudson.me/projects/device.js/
-        if (!device.tablet() && !device.mobile()) {
-            $(".player").mb_YTPlayer();
-        } else {
-            //jQuery will add the default background to the preferred class 
-            $('.big-background, .small-background-section').addClass('big-background-default-image');
-        }
-    });
+		//Device.js will check if it is Tablet or Mobile - http://matthewhudson.me/projects/device.js/
+		if (!device.tablet() && !device.mobile()) {
+			$(".player").mb_YTPlayer();
+		} else {
+			//jQuery will add the default background to the preferred class 
+			$('.big-background, .small-background-section').addClass('big-background-default-image');
+		}
+	});
+	$('#toscana').delay(1000).fadeOut();
 })(jQuery);
 
 $(document).ready(function(){
@@ -90,4 +91,87 @@ $(document).ready(function(){
 		'autoplay': true,
 		'dots': true
 	});
+
+
+	$('.btn.suc').on('click', function () {
+		var button = $(this).attr('data-map');
+		console.log(button);
+		$('.btn.suc').removeClass('active');
+		$(this).addClass('active');
+		$('.map-container').fadeOut();
+		$('#' + button).fadeIn();
+	});
 });
+
+function initMap() {
+	var map = new google.maps.Map(document.getElementById('map-americas'), {
+		zoom: 13,
+		center: {lat: 20.702757, lng: -103.376457},
+		mapTypeId: google.maps.MapTypeId.TERRAIN
+	});
+
+	// Define the LatLng coordinates for the polygon's path.
+	var americasCoords = [
+		{lat: 20.674914, lng: -103.354715},
+		{lat: 20.715421, lng: -103.354452},
+		{lat: 20.725899, lng: -103.398798},
+		{lat: 20.724797, lng: -103.400588},
+		{lat: 20.709865, lng: -103.407097},
+		{lat: 20.707227, lng: -103.412323},
+		{lat: 20.701675, lng: -103.415495},
+		{lat: 20.695434, lng: -103.415319},
+		{lat: 20.689287, lng: -103.419633},
+		{lat: 20.678800, lng: -103.421740},
+		{lat: 20.674342, lng: -103.400297},
+		{lat: 20.674914, lng: -103.354715}
+	];
+
+	// Construct the polygon.
+	var pistonesAmericas = new google.maps.Polygon({
+		paths: americasCoords,
+		strokeColor: '#FF0000',
+		strokeOpacity: 0.8,
+		strokeWeight: 2,
+		fillColor: '#FF0000',
+		fillOpacity: 0.35
+	});
+	pistonesAmericas.setMap(map);
+
+	var map_toscana = new google.maps.Map(document.getElementById('map-toscana'), {
+		zoom: 13,
+		center: {lat: 20.729511, lng: -103.431543},
+		mapTypeId: google.maps.MapTypeId.TERRAIN
+	});
+
+	var toscanaCoords = [
+		{lat: 20.738475, lng: -103.403667},
+		{lat: 20.709802, lng: -103.406986},
+		{lat: 20.707625, lng: -103.412334},
+		{lat: 20.701742, lng: -103.415504},
+		{lat: 20.698406, lng: -103.416098},
+		{lat: 20.695441, lng: -103.415207},
+		{lat: 20.690159, lng: -103.415405},
+		{lat: 20.689233, lng: -103.419763},
+		{lat: 20.678947, lng: -103.421695},
+		{lat: 20.682746, lng: -103.439325},
+		{lat: 20.692939, lng: -103.452499},
+		{lat: 20.702251, lng: -103.460374},
+		{lat: 20.731110, lng: -103.451608},
+		{lat: 20.738012, lng: -103.484595},
+		{lat: 20.761582, lng: -103.485663},
+		{lat: 20.764153, lng: -103.447248},
+		{lat: 20.769604, lng: -103.446249},
+		{lat: 20.738475, lng: -103.403667}
+	];
+
+	// Construct the polygon.
+	var pistonesToscana = new google.maps.Polygon({
+		paths: toscanaCoords,
+		strokeColor: '#FF0000',
+		strokeOpacity: 0.8,
+		strokeWeight: 2,
+		fillColor: '#FF0000',
+		fillOpacity: 0.35
+	});
+	pistonesToscana.setMap(map_toscana);
+}

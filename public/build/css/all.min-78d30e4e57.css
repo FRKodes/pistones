@@ -11449,6 +11449,14 @@ body {
   width: 370px;
 }
 
+.inner-banner .inner-title.menu {
+  margin-top: 220px;
+}
+
+.inner-banner .inner-title.menu img {
+  width: 240px;
+}
+
 .culture-p {
   margin-top: -50px;
 }
@@ -11737,6 +11745,63 @@ footer .eleanor img {
   width: 110px;
   margin: 10px auto;
   display: block;
+}
+
+.menu-page-top {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 0.9em;
+  height: auto;
+  display: block;
+  overflow: hidden;
+}
+
+.btn.naranja.menu {
+  font-size: 0.8em;
+}
+
+.btn.naranja.menu:active {
+  background: #f5841f;
+  border-color: #f5841f;
+}
+
+.btn.naranja.menu:hover {
+  border-color: #f5841f;
+}
+
+.btn.suc {
+  width: 49.5%;
+  display: inline-block;
+  font-size: 0.8em;
+  float: left;
+  background: #fff;
+  color: #f5841f;
+  border: 1px solid #f5841f;
+}
+
+.btn.suc:focus {
+  outline: none;
+}
+
+.btn.suc:hover {
+  border-color: #f5841f;
+}
+
+.btn.suc:active {
+  border-color: #f5841f;
+  background: #f5841f;
+}
+
+.btn.suc.active {
+  color: #fff;
+  background: #f5841f;
+  border-color: #f5841f;
+}
+
+.map-togo {
+  width: 100%;
+  height: 400px;
+  maring-bottom: 40px;
 }
 
 @media screen and (min-width: 480px) {
@@ -12103,6 +12168,23 @@ footer .eleanor img {
   .text-container img.cuatro_p {
     width: 140px;
   }
+
+  .menu-page-top {
+    font-size: 1em;
+  }
+
+  .btn.naranja.menu {
+    font-size: 1em;
+  }
+
+  .btn.suc {
+    font-size: 1em;
+  }
+
+  .map-togo {
+    height: 600px;
+    maring-bottom: 40px;
+  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -12280,5 +12362,13 @@ footer .eleanor img {
   footer .eleanor img {
     width: 190px;
     margin-top: -74px;
+  }
+
+  .btn.naranja.menu {
+    font-size: 1.2em;
+  }
+
+  .btn.suc {
+    font-size: 1.2em;
   }
 }

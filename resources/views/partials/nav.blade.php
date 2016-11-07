@@ -14,8 +14,6 @@
 			<ul class="nav navbar-nav">
 				<li class="hidden-xs" id="home"><a href="/"><img src="images/logo_pistones.svg" alt="logo pistones garage"></a></li>
 				<li>
-					{{-- <a class="{{ Request::is('filosofia') ? 'active' : '' }}" href="filosofia">
-					Filosofía</a> --}}
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Filosofía<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><a href="filosofia">El Taller</a></li>
@@ -26,7 +24,7 @@
 				<li><a class="{{ Request::is('cocina') ? 'active' : '' }}" href="cocina">Cocina</a></li>
 				<li><a class="{{ Request::is('sucursales') ? 'active' : '' }}" href="sucursales">Sucursales</a></li>
 				<li><a class="{{ Request::is('franquicia') ? 'active' : '' }}" href="franquicia">Franquicia</a></li>
-				{{-- <li><a class="{{ Request::is('menu-to-go') ? 'active' : '' }}" href="menu-to-go">Menú To Go</a></li> --}}
+				<li><a class="{{ Request::is('menu-to-go') ? 'active' : '' }}" href="menu-to-go">Menú To Go</a></li>
 			</ul>
 		</div><!--/.nav-collapse -->
 	</div>
