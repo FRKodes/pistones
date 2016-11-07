@@ -1,6 +1,6 @@
 @extends('app')
 
-@section('titlePage', 'Cultuta organizacional')
+@section('titlePage', 'Menú To Go')
 
 @section('content')
 	<div class="container-fluid inner-banner cultura">
@@ -95,7 +95,6 @@
 				<div class="item"><img src="images/cultuta-organizacional-tercer_bloque03.jpg" alt="cultuta organizacional tercer bloque03"></div>
 			</div>
 		</div>
-		<div class="col-sm-10 col-sm-offset-1"><img src="images/cultura_frase_final.svg" alt="No existe persona más feliz, que la que da resultados positivos."></div>
 	</div>
 
 @stop

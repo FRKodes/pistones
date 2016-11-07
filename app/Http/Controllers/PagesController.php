@@ -39,6 +39,11 @@ class PagesController extends Controller {
 	public function franquicia(){
 		return View('pages.franquicia');
 	}
+
+	public function menu()
+	{
+		return View('pages.menu');
+	}
 	
 	public function sendmail(){
 		Mail::send('emails.contacto', [], function($message)

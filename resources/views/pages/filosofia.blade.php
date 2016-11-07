@@ -41,26 +41,4 @@
 		</div>
 	</div>
 
-	<div class="container p-up-down-40px">
-		<div class="col-sm-5">
-			<div class="text-container">
-				<figure class="title"><img class="culture_svg" src="images/cultura_pistones.svg" alt="cultura pistones"></figure>
-				<p class="culture-p">
-					El motor del Taller son nuestros mecánicos. <br><br>
-					En el Taller tenemos una cultura profesional definida, nuestro principal enfoque es al interior de nuestra marca. <br><br>
-					Nuestros colaboradores son nuestro valor más importante, por eso los llamamos “Mecánicos” ya que son el motor que hace realidad la operación de nuestro negocio. Por eso nos aseguramos de invertir en su preparación y darles la bienvenida a nuestra comunidad. <br><br>
-					En PISTONES® nadie esta solo y queremos que cada nuevo mecánico se sienta en casa, por eso en el Taller se fomenta la relación con la comunidad, mejorando nuestra actitud de servicio y aumentando nuestra competitividad en el mercado.
-				</p>
-			</div>
-		</div>
-		<div class="col-sm-7">
-			<div class="product-slider">
-				<div class="item"><img src="images/filosofia-cultura-pistones-01.jpg" alt="filosofia cultura pistones 01"></div>
-				<div class="item"><img src="images/filosofia-cultura-pistones-02.jpg" alt="filosofia cultura pistones 02"></div>
-				<div class="item"><img src="images/filosofia-cultura-pistones-03.jpg" alt="filosofia cultura pistones 03"></div>
-				<div class="item"><img src="images/filosofia-cultura-pistones-04.jpg" alt="filosofia cultura pistones 04"></div>
-			</div>
-		</div>
-	</div>
-
 @stop
