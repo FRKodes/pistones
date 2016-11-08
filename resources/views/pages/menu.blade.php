@@ -22,10 +22,22 @@
 		</div>
 		
 		<div id="americas" class="map-container">
+			<p class="col-sm-3 back-white">
+				<span class="naranja">Sucursal Américas:</span> <br>
+				Tel. (33) 3817-1790 <br>
+				Av. Américas 1551-A <br>
+				Col. Providencia, C.P. 44630 <br>
+			</p>
 			<div class="map-togo" id="map-americas"></div>
 		</div>
 
 		<div id="toscana" class="map-container">
+			<p class="col-sm-3 back-white">
+				<span class="naranja">Sucursal Toscana:</span> <br>
+				Tel. (33) 31091922  <br>
+				Av. Santa Margarita 3849 <br>
+				Col. Valle Real <br>
+			</p>
 			<div class="map-togo" id="map-toscana"></div>
 		</div>
 
