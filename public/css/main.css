@@ -276,6 +276,10 @@ body {
   background: transparent url("../../images/franquicia.jpg") no-repeat center top;
 }
 
+.inner-banner.togo {
+  background: transparent url("../../images/banner_togo.jpg") no-repeat center top;
+}
+
 .inner-banner .inner-title {
   margin-top: 150px;
 }
