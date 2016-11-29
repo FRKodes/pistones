@@ -120,7 +120,7 @@
 					<p>
 						Tel. (667) 283-3957 <br>
 						Blvd. Francisco Labastida Ochoa Pte. #1695<br>
-						Desarrollo Urbano Tres Ríos C.P.80020<br>
+						Desarrollo Urbano Tres Ríos C.P. 80020<br>
 						Torre Tres Ríos Local #102 <br>
 						Culiacán Sinaloa.
 					</p>
