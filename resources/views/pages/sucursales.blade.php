@@ -118,8 +118,11 @@
 				<div class="text-container">
 					<h2 class="chunk naranja">Culiacán, Sinaloa.</h2>
 					<p>
-						Próximamente... <br>
-						Plaza Tres Ríos
+						Tel. (667) 283-3957 <br>
+						Blvd. Francisco Labastida Ochoa Pte. #1695<br>
+						Desarrollo Urbano Tres Ríos<br>
+						Torre Tres Ríos Local #102 C.P.80020<br>
+						Culiacán Sinaloa.
 					</p>
 					<a href="https://www.google.com.mx/maps/place/Plaza+Tres+Rios/@24.830703,-107.4012797,17z/data=!3m1!4b1!4m5!3m4!1s0x86bcda10db7959ef:0x98a9ea828c5b7ed3!8m2!3d24.830703!4d-107.399091" target="_blank" title="Ver la ubicación de Pistones Culiacán en Google Maps">
 						<figure class="map"><img src="images/culiacan_mapa.jpg" alt="mapa pistones garage Culiacán"></figure>
@@ -128,7 +131,7 @@
 			</div>
 			<div class="col-sm-8">
 				<div class="product-slider">
-					<div class="item"><img src="images/pistones-garage-sucursal-culiacan.jpg" alt="pistones garage sucursal Culiacán"></div>
+					<div class="item"><img src="images/pistones-garage-sucursal-culiacan-new.jpeg" alt="pistones garage sucursal Culiacán"></div>
 				</div>
 			</div>
 		</div>
