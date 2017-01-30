@@ -10,7 +10,7 @@
 				</div>
 				<ul class="social">
 					<li><a target="_blank" title="Síguenos en Facebook" href="https://www.facebook.com/PistonesGarage" class="icon-d"></a></li>
-					<li><a target="_blank" title="Síguenos en Instagram" href="https://www.instagram.com/pistonesgdl" class="icon-e"></a></li>
+					<li><a target="_blank" title="Síguenos en Instagram" href="https://www.instagram.com/pistonesmx" class="icon-e"></a></li>
 					<li><a target="_blank" title="Contáctanos" href="mailto:info@pistonesgarage.com" class="icon-f"></a></li>
 				</ul>
 			</div>
