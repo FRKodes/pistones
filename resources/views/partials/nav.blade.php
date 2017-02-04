@@ -25,6 +25,7 @@
 				<li><a class="{{ Request::is('sucursales') ? 'active' : '' }}" href="sucursales">Sucursales</a></li>
 				<li><a class="{{ Request::is('franquicia') ? 'active' : '' }}" href="franquicia">Franquicia</a></li>
 				<li><a class="{{ Request::is('menu-to-go') ? 'active' : '' }}" href="menu-to-go">Menú To Go</a></li>
+				<li><a class="{{ Request::is('sports-travel-confederaciones-rusia-2017') ? 'active' : '' }}" href="sports-travel-confederaciones-rusia-2017">Sports Travel</a></li>
 			</ul>
 		</div><!--/.nav-collapse -->
 	</div>

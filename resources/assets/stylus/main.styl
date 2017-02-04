@@ -13,12 +13,16 @@ turquesa = #02E0E1
 		background none
 .back-white
 	background white
+.turquesa
+	color turquesa
 .naranja
 	color naranja
 .back_white
 	background white
 .relative
 	position relative
+.cien
+	width 100%
 .p-up-down-40px
 	padding-top 40px
 	padding-bottom 40px
@@ -39,11 +43,13 @@ h2.chunk
 	span.two
 		color black
 		font-size .8em
+	&.title_conf
+		font-size 2.2em
+		text-align left
 iframe
 	width 100%
 	height auto
 	display block
-
 body
 	background transparent url(../../images/background.jpg) repeat center top
 	color black
@@ -90,6 +96,17 @@ body
 		color white
 	.navbar-nav>li>a.active
 		color naranja
+.banner-main-confederaciones
+	background transparent url(../../images/banner-home-confederaciones-rusia-2017.jpg) no-repeat center top
+	background-size cover
+	height 400px
+	display block
+	width 100%
+	margin-bottom 40px
+	a
+		width 100%
+		height 100%
+		display block
 .big-background
 	height 400px !important
 	background black url(../../images/pistones-garage-sucursal-toscana.jpg) no-repeat 50% 50% !important
@@ -172,7 +189,6 @@ body
 		width 300px
 
 /*filosofía*/
-
 .inner-banner
 	height 300px
 	background black
@@ -194,6 +210,8 @@ body
 		background transparent url(../../images/franquicia.jpg) no-repeat center top
 	&.togo
 		background transparent url(../../images/banner_togo.jpg) no-repeat center top
+	&.confederaciones
+		background transparent url(../../images/banner_header_confederaciones.jpg) no-repeat center top
 	.inner-title
 		margin-top 150px
 		&.cultura-title
@@ -204,6 +222,9 @@ body
 			margin-top 220px
 			img
 				width 240px
+		&.confederaciones
+			img
+				width 300px
 .culture-p
 	margin-top -50px
 
@@ -338,6 +359,9 @@ textarea
 	text-align center
 	text-transform uppercase
 	width 100%
+.container.confederaciones
+	margin-top 30px
+	margin-bottom 20px
 footer
 	background url(../../images/background.jpg) repeat center top
 	height auto
@@ -476,6 +500,13 @@ footer
 	.culture-p
 		margin-top -80px
 @media screen and (min-width:768px)
+	.banner-main-confederaciones
+		height 600px
+		margin-bottom 20px
+		background-position center bottom
+	.intro-confederaciones
+		font-size 1.2em
+		background white
 	.chunk
 		&.title-cultura
 			font-size 30px
@@ -509,7 +540,8 @@ footer
 	.navbar-default .navbar-nav>li>a
 		color white
 		text-transform uppercase
-		font-size .8em
+		font-size .75em
+		padding 10px 4px
 	.navbar-default
 		.navbar-nav>li>a
 				&:hover
@@ -549,8 +581,6 @@ footer
 	.pattern
 	.big-background
 	    height 600px
-	// .big-background-default-image
-	// 	background none !important
 	.text-container
 		margin-top 0px
 		padding-top 10px
@@ -572,6 +602,9 @@ footer
 		margin-top -50px
 	.t-deportes
 		float right
+	.container.confederaciones
+		margin-top 0
+		margin-bottom 0
 	footer
 		.inner-back
 			.icon-b
@@ -654,6 +687,9 @@ footer
 			&.cultura-title
 				img
 					width 440px
+			&.confederaciones
+				img
+					width 500px
 	.text-container
 		img
 			&#cultura-pistones-badge
@@ -749,6 +785,7 @@ footer
 	.navbar-default
 		.navbar-nav>li>a
 			font-size 1.2em
+			padding 10px 8px
 		.navbar-nav
 			li#home
 				height 80px
@@ -756,6 +793,8 @@ footer
 				img
 					margin-top -41px
 					width 140px
+	.banner-main-confederaciones
+		height 800px
 	.big-background
 		background transparent !important
 		height 600px !important
@@ -794,3 +833,6 @@ footer
 		font-size 1.2em
 	.btn.suc
 		font-size 1.2em
+@media screen and (min-width: 1800px)
+	.banner-main-confederaciones
+		height 900px

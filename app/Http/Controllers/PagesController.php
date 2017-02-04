@@ -45,6 +45,11 @@ class PagesController extends Controller {
 		return View('pages.menu');
 	}
 	
+	public function sports_travel()
+	{
+		return View('pages.sports_travel');
+	}
+	
 	public function sendmail(){
 		Mail::send('emails.contacto', [], function($message)
 		{

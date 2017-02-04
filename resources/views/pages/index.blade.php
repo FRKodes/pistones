@@ -3,19 +3,13 @@
 @section('titlePage', 'Inicio')
 
 @section('content')
-	{{-- <div class="container-fluid banner-video">
-		<div class="play hidden-sm hidden-md hidden-lg">Play</div>
-		<div class="burger-love"><img src="images/burger_love.svg" alt="Pistones Garage burger love"></div>
-		<iframe src="https://www.youtube.com/embed/JZu8q5kiCuE?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;enablejsapi=1" frameborder="0" allowfullscreen></iframe>
-		<iframe src="https://www.youtube.com/embed/JZu8q5kiCuE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-	</div> --}}
-
-	<section class="big-background">
+	{{-- <section class="big-background">
 		<div class="burger-love"><img src="images/burger_love.svg" alt="Pistones Garage burger love"></div>
 		<a id="bgndVideo" class="player hidden-xs hidden-sm" data-property="{videoURL:'https://www.youtube.com/watch?v=8FEh9IbTQyM',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}"></a>
 	    <div class="pattern hidden-xs hidden-sm hidden-md"></div> 
-	</section>
+	</section> --}}
+
+	<div class="banner-main-confederaciones"><a href="{{ url('sports-travel-confederaciones-rusia-2017')}}"></a></div>
 	
 	<div class="container-fluid">
 		<div class="container">
