@@ -9,7 +9,8 @@
 	    <div class="pattern hidden-xs hidden-sm hidden-md"></div> 
 	</section> --}}
 
-	<div class="banner-main-confederaciones"><a href="{{ url('sports-travel-confederaciones-rusia-2017')}}"></a></div>
+	{{-- <div class="banner-main-confederaciones"><a href="{{ url('sports-travel-confederaciones-rusia-2017')}}"></a></div> --}}
+	<div class="banner-main-confederaciones"><div class="burger-love-conf"><img src="images/burger_love.svg" alt="Pistones Garage burger love"></div></div>
 	
 	<div class="container-fluid">
 		<div class="container">

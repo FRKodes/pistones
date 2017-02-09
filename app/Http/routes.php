@@ -8,7 +8,7 @@ Route::get('cocina', 'PagesController@cocina');
 Route::get('sucursales', 'PagesController@sucursales');
 Route::get('franquicia', 'PagesController@franquicia');
 Route::get('menu-to-go', 'PagesController@menu');
-Route::get('sports-travel-confederaciones-rusia-2017', 'PagesController@sports_travel');
+// Route::get('sports-travel-confederaciones-rusia-2017', 'PagesController@sports_travel');
 Route::post('sendmail', 'PagesController@sendmail');
 
 // Route::get('home', 'HomeController@index');
