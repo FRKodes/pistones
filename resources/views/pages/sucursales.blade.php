@@ -136,6 +136,50 @@
 			</div>
 		</div>
 
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="text-container">
+					<h2 class="chunk naranja">Guadalajara, Jalisco: Chapultepec</h2>
+					<p>
+						Tel: 01 33 2078 8491 <br>
+						Av. Chapultepec Sur 380 <br>
+						Col. Americana, C.P. 44140 <br>
+						Guadalajara Jalisco
+					</p>
+					<a href="https://goo.gl/maps/fkRRGduDqb52" target="_blank" title="Ver la ubicación de Pistones Chapultepec en Guadalajara en Google Maps">
+						<figure class="map"><img src="images/chapultepec_mapa.jpg" alt="mapa pistones garage Chapultepec Guadalajara Jalisco"></figure>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-8">
+				<div class="product-slider">
+					<div class="item"><img src="images/pistones-garage-sucursal-chapultepec.jpg" alt="pistones garage sucursal Chapultepec"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="text-container">
+					<h2 class="chunk naranja">San Nicolás, N.L: Andenes</h2>
+					<p>
+						Tel: 01 81 2126 3377 <br>
+						Av. Universidad 1250 Local B 305 <br>
+						Fracc Villarreal C.P. 66427 <br>
+						San Nicolás, Nuevo León.
+					</p>
+					<a href="https://goo.gl/maps/TgWT8FzfY4p" target="_blank" title="Ver la ubicación de Pistones Chapultepec en Guadalajara en Google Maps">
+						<figure class="map"><img src="images/monterrey_mapa.jpg" alt="mapa pistones garage San Nicolás Nuevo León"></figure>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-8">
+				<div class="product-slider">
+					<div class="item"><img src="images/pistones-garage-sucursal-monterrey.jpg" alt="pistones garage sucursal San Nicolás Nuevo León"></div>
+				</div>
+			</div>
+		</div>
+
 	</div>	
 
 @stop
