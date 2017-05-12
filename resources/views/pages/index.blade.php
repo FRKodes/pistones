@@ -3,13 +3,13 @@
 @section('titlePage', 'Inicio')
 
 @section('content')
-	{{-- <section class="big-background">
+	<section class="big-background">
 		<div class="burger-love"><img src="images/burger_love.svg" alt="Pistones Garage burger love"></div>
-		<a id="bgndVideo" class="player hidden-xs hidden-sm" data-property="{videoURL:'https://www.youtube.com/watch?v=8FEh9IbTQyM',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}"></a>
+		<a id="bgndVideo" class="player hidden-xs hidden-sm" data-property="{videoURL:'https://www.youtube.com/watch?v=GRHHyY9xhOI',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}"></a>
 	    <div class="pattern hidden-xs hidden-sm hidden-md"></div> 
-	</section> --}}
+	</section>
 
-	<div class="banner-main-confederaciones"><a href="{{ url('sportstravel')}}"></a></div>
+	{{-- <div class="banner-main-confederaciones"><a href="{{ url('sportstravel')}}"></a></div> --}}
 	{{-- <div class="banner-main-confederaciones"><div class="burger-love-conf"><img src="images/burger_love.svg" alt="Pistones Garage burger love"></div></div> --}}
 	
 	<div class="container-fluid">
