@@ -43,7 +43,7 @@
 					<p>2. Tras la finalización del concurso, el día 05 de Noviembre de 2017 se hará una transmisión en vivo en la sucursal de Américas en Guadalajara para descubrir quién será el acreedor de este maravilloso premio.</p>
 
 					<p>
-						<a class="turquesa" href="pdf/bases_viaje_pistones_nfl_oakland.pdf" target="_blank">Revisa las bases del concurso aquí.</a>
+						<a class="turquesa" href="pdf/bases_clientes_oakland_sports_travel.pdf" target="_blank">Revisa las bases del concurso aquí.</a>
 					</p>
 				</div>
 			</div>
