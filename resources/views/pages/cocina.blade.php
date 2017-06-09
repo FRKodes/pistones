@@ -4,13 +4,13 @@
 
 @section('content')
 	<div class="container-fluid inner-banner cocina">
-		<div class="inner-title"><img src="images/cocina.svg" alt="Cocina Pistones Garage"></div>
+		<div class="inner-title"><img src="images/cocina_.svg" alt="Cocina Pistones Garage"></div>
 	</div>
 
 	<div class="container adictiva">
 		<div class="col-sm-12 back_naranja">
 			<div class="text-container text-center back_naranja">
-				<h1><img src="images/cuidado_comida_adictiva.svg" alt="cuidado comida altamente adictiva, en Pistones Garage"></h1>
+				<h1><img src="images/comida_adictiva_negro_new.svg" alt="cuidado comida altamente adictiva, en Pistones Garage"></h1>
 			</div>
 		</div>
 		<div class="col-sm-12 back_naranja last">
@@ -19,13 +19,13 @@
 	</div>
 
 	<div class="container text-center">
-		<img class="estrellas" src="images/estrellas_del_taller.svg" alt="conoce algunas estrellas del taller">
+		<img class="estrellas" src="images/estrellas_taller_new.svg" alt="conoce algunas estrellas del taller">
 	</div>
 
 	<div class="container">
 		<div class="col-sm-6 col-md-5 back-black">
 			<div class="text-container p-top-20 text-center">
-				<img class="burger-love" src="images/amor-a-la-burger.svg" alt="burger love">
+				<img class="burger-love" src="images/amor_burger_new.svg" alt="burger love">
 				<p class="text-left">
 					Somos el Taller de la comida altemente adictiva y los drinks perfectamente calibrados, fusionamos nuestro propio estilo y la clásica comida americana. <br><br>
 					Nunca habías probado una burger tan increíble como la que se hace en el Taller, hechas con exqusito pan artesanal horneado al día, carne a la parrilla 100% sonorense de la mejor calidad e ingredientes siempre frescos y elegidos cuidadosamente por los mecánicos de cocina.

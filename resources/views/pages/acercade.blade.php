@@ -5,7 +5,7 @@
 @section('content')
 
 	<div class="container-fluid inner-banner acercade">
-		<div class="inner-title"><img src="images/acerca_de.svg" alt="Filosofía Pistones Garage "></div>
+		<div class="inner-title"><img src="images/acerca_de_.svg" alt="Filosofía Pistones Garage "></div>
 	</div>
 
 	<div class="container black">
@@ -46,7 +46,7 @@
 	<div class="container space deportes">
 		<div class="col-sm-6 col-md-4 t-deportes">
 			<div class="text-container">
-				<figure class="title"><img class="taller_deportes" src="images/taller_de_los_deportes.svg" alt="El taller de los deportes"></figure>
+				<figure class="title"><img class="taller_deportes" src="images/taller_deportes_new.svg" alt="El taller de los deportes"></figure>
 				<p class="sports-p">
 					Dentro del Taller los deportes adquieren fuerza y pasión, ofrecemos la mayor oferta deportiva en VIVO. Con sistemas de audio y video de última generación para que en nuestras múltiples pantallas puedas sumergirte en la experiencia de “El Taller de los Deportes”. <br><br>
 					Ya sea con amigos ó familia, la experiencia de vivir los deportes en el Taller es sinónimo de diversión. ¿NFL? ¿futbol? ¿UFC? ¡lo que quieras ver!
@@ -65,7 +65,7 @@
 	<div class="container">
 		<div class="col-sm-6 col-md-4">
 			<div class="text-container beerday">
-				<figure class="title"><img class="" src="images/beerday.svg" alt="tu beerday"></figure>
+				<figure class="title"><img class="" src="images/beerday_new.svg" alt="tu beerday"></figure>
 				<p>
 					¡Pura PISTONES® party! El Taller conoce de fiesta y las excusas sobran cuando de disfrutar se trata, ofrecemos un amplio abanico de posibilidades para los que quieren celebrar, nuestros horarios y las promociones diseñadas especialmente para nuestros clientes son un ejemplo de ello; ya sea tu cumpleaños, una noche de chicas o bien que te encuentras lejos de casa estudiando o trabajando, PISTONES® te espera para pasar un buen rato en compañía de tus amigos en un ambiente inigualable. <br><br>
 					Nuestra selección musical perfectamente calibrada y balanceada en cada momento, hace de tu estancia en el Taller, una experiencia llena de adrenalina y diversión digna de compartir y recordar. <br><br>

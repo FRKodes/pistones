@@ -1,12 +1,12 @@
 <div class="inner-back">
 	<div class="container">
 		<div class="row">
-			<div class="icon-b"></div>
+			<div class="skull-container"><img class="skull" src="images/calavera_new.svg" alt="calavera PISTONES"></div>
 		</div>
 		<div class="row">
 			<div class="col-sm-4 col-md-3 up-this-one">
 				<div class="follow-us">
-					<img src="images/siguenos.svg" alt="siguenos en redes sociales">
+					<img src="images/siguenos_new.svg" alt="siguenos en redes sociales">
 				</div>
 				<ul class="social">
 					<li><a target="_blank" title="Síguenos en Facebook" href="https://www.facebook.com/PistonesGarage" class="icon-d"></a></li>

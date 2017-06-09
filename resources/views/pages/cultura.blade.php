@@ -4,7 +4,7 @@
 
 @section('content')
 	<div class="container-fluid inner-banner cultura">
-		<div class="inner-title cultura-title"><img src="images/cultura_organizacional.svg" alt="Cultura Organizacional Pistones Garage"></div>
+		<div class="inner-title cultura-title"><img src="images/cultura_organizacional_new.svg" alt="Cultura Organizacional Pistones Garage"></div>
 	</div>
 
 	<div class="container adictiva">
@@ -23,7 +23,7 @@
 	<div class="container">
 		<div class="col-sm-6 col-md-5 back-white">
 			<div class="text-container p-top-20 text-center">
-				<img class="nuestros-objetivos" src="images/nuestros_objetivos.svg" alt="nuestros objetivos"> <br><br><br>
+				<img class="nuestros-objetivos" src="images/nuestros_objetivos_new.svg" alt="nuestros objetivos"> <br><br><br>
 				<p class="text-left">
 					Somos más que un equipo, somos una comunidad. En PISTONES® trabajamos juntos para lograr un objetivo común: clientes felices. Nosotros somos los que hacemos de cada visita una experiencia que no se olvida. <br><br>
 
@@ -72,7 +72,7 @@
 	<div class="container p-up-down-40px">
 		<div class="col-sm-6 col-md-5 back-white">
 			<div class="text-container">
-				<img class="cuatro_p" src="images/4ps.svg" alt="4ps pistones garage">
+				<img class="cuatro_p" src="images/4ps_new.svg" alt="4ps pistones garage">
 				<p>
 					<span class="naranja">PERSONAS</span><br>
 					Nuestro principal activo es nuestro talento. Antes de comercializar alimentos y bebidas, vendemos experiencias humanas de extraordinaria calidad.<br><br>

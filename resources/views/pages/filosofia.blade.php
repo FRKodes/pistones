@@ -5,7 +5,7 @@
 @section('content')
 
 	<div class="container-fluid inner-banner filosofia">
-		<div class="inner-title"><img src="images/filosofia.svg" alt="Filosofía Pistones Garage "></div>
+		<div class="inner-title"><img src="images/filosofia_new.svg" alt="Filosofía Pistones Garage"></div>
 	</div>
 
 	<div class="container">

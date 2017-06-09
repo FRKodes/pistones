@@ -4,7 +4,7 @@
 
 @section('content')
 	<div class="container-fluid inner-banner franquicia">
-		<div class="inner-title"><img src="images/franquicia.svg" alt="Franquicias Pistones Garage"></div>
+		<div class="inner-title"><img src="images/franquicia_new.svg" alt="Franquicias Pistones Garage"></div>
 	</div>
 
 	<div class="container black relative">

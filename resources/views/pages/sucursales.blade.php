@@ -4,7 +4,7 @@
 
 @section('content')
 	<div class="container-fluid inner-banner sucursales">
-		<div class="inner-title"><img src="images/sucursales.svg" alt="Sucursales Pistones Garage"></div>
+		<div class="inner-title"><img src="images/sucursales_new.svg" alt="Sucursales Pistones Garage"></div>
 	</div>
 
 	<div class="container sucursales">
