@@ -24,6 +24,7 @@
 						Todos los derechos reservados <br>
 						Aviso de privacidad <a href="pdf/privacidad-pistones-hmo.pdf" target="_blank" title="Ver aviso de privacidad Hermosillo">Hmo</a> / <a href="pdf/aviso_de_privacidad_pistones.pdf" target="_blank" title="Ver aviso de privacidad Guadalajara">Gdl</a>
 					</p>
+					<p>Desarrollado por <a target="_blank" href="http://www.blueterrier.mx" title="Ver sitio web del studio">Blue Terrier</a></p>
 				</div>
 			</div>
 		</div>
