@@ -34,12 +34,10 @@
 		</div>
 		<div class="col-sm-6 col-md-7">
 			<div class="product-slider">
-				<div class="item"><img src="images/cocina-burger-love-00.jpg" alt="pistones garage cocina burger love 00"></div>
+				<div class="item"><img src="images/cocina-burger-love-03.jpg" alt="pistones garage cocina burger love 03"></div>
 				<div class="item"><img src="images/cocina-burger-love-01.jpg" alt="pistones garage cocina burger love 01"></div>
 				<div class="item"><img src="images/cocina-burger-love-02.jpg" alt="pistones garage cocina burger love 02"></div>
-				<div class="item"><img src="images/cocina-burger-love-03.jpg" alt="pistones garage cocina burger love 03"></div>
 				<div class="item"><img src="images/cocina-burger-love-04.jpg" alt="pistones garage cocina burger love 04"></div>
-				<div class="item"><img src="images/cocina-burger-love-05.jpg" alt="pistones garage cocina burger love 05"></div>
 			</div>
 		</div>
 	</div>
