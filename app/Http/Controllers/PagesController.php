@@ -42,7 +42,9 @@ class PagesController extends Controller {
 
 	public function menu()
 	{
-		return View('pages.menu');
+		// return View('pages.menu');
+		return redirect('/');
+
 	}
 	
 	public function sports_travel()
