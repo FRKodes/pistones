@@ -185,7 +185,7 @@
 				<div class="text-container">
 					<h2 class="chunk naranja">Tlajomulco, Jalisco: La Gourmetería</h2>
 					<p>
-						Tel: 3316414272 <br>
+						Tel: 33 1641 4272 <br>
 						Avenida Adolfo López Mateos Sur 1710 <br>
 						Col. Santa Isabel, CP 45645 <br>
 						Tlajomulco de Zúñiga, Jalisco.
@@ -207,7 +207,7 @@
 				<div class="text-container">
 					<h2 class="chunk naranja">Celaya, Guanajuato: Town Plaza</h2>
 					<p>
-						Tel: 4611596079 <br>
+						Tel: 461 159 6079 <br>
 						Calle Monteroso #111. Local 6. Condominio horizontal "Town Plaza"<br>
 						Col. Las delicias, CP 38080 <br>
 						Celaya, Guanajuato.
@@ -219,7 +219,29 @@
 			</div>
 			<div class="col-sm-8">
 				<div class="product-slider">
-					<div class="item"><img src="images/celaya_img.png" alt="pistones garage sucursal tlajomulco de zúñiga, la gourmetería"></div>
+					<div class="item"><img src="images/celaya_img.png" alt="pistones garage sucursal Celaya Guanajuato"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="text-container">
+					<h2 class="chunk naranja">Zacatecas, Zacatecas: Plaza Galerías</h2>
+					<p>
+						Tel: (01) 492 509 2017<br>
+						Blvd. El Bote #202 <br>
+						Centro Comercial Galerias Zacatecas, local 260  <br>
+						Zacatecas, Zacatecas. <br>
+					</p>
+					<a href="https://goo.gl/maps/PMxKW7pPu6G2" target="_blank" title="Ver la ubicación de Pistones Zacatecas en Google Maps">
+						<figure class="map"><img src="images/pistones-zacatecas-mapa.jpg" alt="mapa pistones garage Zacatecas Plaza Galerías"></figure>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-8">
+				<div class="product-slider">
+					<div class="item"><img src="images/sucursal_zacatecas.png" alt="pistones garage sucursal zacatecas plaza galerías"></div>
 				</div>
 			</div>
 		</div>
