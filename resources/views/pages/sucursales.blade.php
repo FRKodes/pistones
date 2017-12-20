@@ -241,7 +241,7 @@
 			</div>
 			<div class="col-sm-8">
 				<div class="product-slider">
-					<div class="item"><img src="images/sucursal_zacatecas.png" alt="pistones garage sucursal zacatecas plaza galerías"></div>
+					<div class="item"><img src="images/sucursal_zacatecas_new.png" alt="pistones garage sucursal zacatecas plaza galerías"></div>
 				</div>
 			</div>
 		</div>
