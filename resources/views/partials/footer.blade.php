@@ -20,7 +20,7 @@
 				</div>
 				<div class="disclaimer">
 					<p>
-						Copyright &copy; <?php echo date('Y') ?> Pistones Garage <br>
+						Copyright &copy; <?php echo date('Y'); ?> Pistones Garage <br>
 						Todos los derechos reservados <br>
 						Aviso de privacidad <a href="pdf/privacidad-pistones-hmo.pdf" target="_blank" title="Ver aviso de privacidad Hermosillo">Hmo</a> / <a href="pdf/aviso_de_privacidad_pistones.pdf" target="_blank" title="Ver aviso de privacidad Guadalajara">Gdl</a>
 					</p>
@@ -29,6 +29,4 @@
 			</div>
 		</div>
 	</div>
-
-
 </div>

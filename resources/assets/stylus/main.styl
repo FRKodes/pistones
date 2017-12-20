@@ -4,6 +4,25 @@ turquesa = #02E0E1
 	font-family 'chunkfiveroman'
 	&.title-cultura
 		font-size 20px
+.floating-label
+	border 1px solid rgba(black, .5)
+	border-radius 4px
+	height auto
+	position fixed
+	right 0
+	bottom 200px
+	width 170px
+	z-index 1000
+	padding-left 5px
+	padding-top 10px
+	background rgba(white, .4)
+	display none
+	img
+		display block
+		height auto !important
+		width 100% !important
+#TA_socialButtonBubbles76
+	margin-left 10px
 .container-fluid
 	background transparent url(../../images/background.jpg) repeat center top
 .back-black
@@ -828,6 +847,8 @@ footer
 			.up-this-one
 				margin-top -115px
 @media screen and (min-width:1280px)
+	.floating-label
+		display block
 	.navbar-default
 		.navbar-nav>li>a
 			font-size 1.2em

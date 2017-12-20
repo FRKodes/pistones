@@ -5,7 +5,7 @@
 @section('content')
 	<section class="big-background">
 		{{-- <div class="burger-love"><img src="images/burger_love.svg" alt="Pistones Garage burger love"></div> --}}
-		<a id="bgndVideo" class="player hidden-xs hidden-sm" data-property="{videoURL:'https://www.youtube.com/watch?v=BVa6_70RWGA',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}"></a>
+		<a id="bgndVideo" class="player hidden-xs hidden-sm" data-property="{videoURL:'https://www.youtube.com/watch?v=lgatYqr0Kac',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}"></a>
 	    <div class="pattern hidden-xs hidden-sm hidden-md"></div> 
 	</section>
 
