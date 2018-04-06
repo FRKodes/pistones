@@ -139,28 +139,6 @@
 		<div class="row">
 			<div class="col-sm-4">
 				<div class="text-container">
-					<h2 class="chunk naranja">Tlajomulco, Jalisco: La Gourmetería</h2>
-					<p>
-						Tel: 33 1641 4272 <br>
-						Avenida Adolfo López Mateos Sur 1710 <br>
-						Col. Santa Isabel, CP 45645 <br>
-						Tlajomulco de Zúñiga, Jalisco.
-					</p>
-					<a href="https://goo.gl/maps/GXHpBw3AWWR2" target="_blank" title="Ver la ubicación de Pistones Gourmetería en Guadalajara en Google Maps">
-						<figure class="map"><img src="images/gourmeteria_mapa.png" alt="mapa pistones garage Plaza La gourmetería"></figure>
-					</a>
-				</div>
-			</div>
-			<div class="col-sm-8">
-				<div class="product-slider">
-					<div class="item"><img src="images/gourmeteria_img.png" alt="pistones garage sucursal tlajomulco de zúñiga, la gourmetería"></div>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-sm-4">
-				<div class="text-container">
 					<h2 class="chunk naranja">Celaya, Guanajuato: Town Plaza</h2>
 					<p>
 						Tel: 461 159 6079 <br>
