@@ -11371,6 +11371,21 @@ body {
   display: block;
 }
 
+.banner-main-rusia {
+  background: transparent url("../../images/banner_rusia_pistones.jpg") no-repeat center top;
+  background-size: cover;
+  height: 400px;
+  display: block;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.banner-main-rusia a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
 .big-background {
   height: 400px !important;
   background: #000 url("../../images/pistones-garage-sucursal-toscana.jpg") no-repeat 50% 50% !important;
@@ -11994,10 +12009,11 @@ footer .eleanor img {
 }
 
 @media screen and (min-width: 768px) {
+  .banner-main-rusia,
   .banner-main-confederaciones {
     height: 600px;
     margin-bottom: 20px;
-    background-position: center bottom;
+    background-position: center center;
   }
 
   .burger-love-conf {
@@ -12351,6 +12367,11 @@ footer .eleanor img {
 }
 
 @media screen and (min-width: 1000px) {
+  .banner-main-rusia {
+    height: 700px;
+    background-position: center top;
+  }
+
   iframe {
     height: 500px;
   }
