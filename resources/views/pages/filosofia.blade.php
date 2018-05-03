@@ -20,7 +20,7 @@
 		</div>
 		<div class="col-sm-7">
 			<div class="product-slider">
-				<div class="item"><img src="images/filosofia-pistones-compromiso-calidad.jpg" alt="comida pistones compromiso calidad"></div>
+				<div class="item"><img src="images/filosofia_compromiso_calidad.jpg" alt="comida pistones compromiso calidad, premium quality"></div>
 			</div>
 		</div>
 	</div>

@@ -44,7 +44,7 @@
 			</div>
 			<div class="col-sm-7">
 				<div class="product-slider">
-					<div class="item"><img src="images/livesports.jpg" alt="pistones livesports, el mejor ambiente"></div>
+					<div class="item"><img src="images/home_livesports.jpg" alt="pistones livesports, el mejor ambiente"></div>
 				</div>
 			</div>
 		</div>

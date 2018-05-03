@@ -36,8 +36,8 @@
 			<div class="product-slider">
 				<div class="item"><img src="images/cocina-burger-love-03.jpg" alt="pistones garage cocina burger love 03"></div>
 				<div class="item"><img src="images/cocina-burger-love-01.jpg" alt="pistones garage cocina burger love 01"></div>
-				<div class="item"><img src="images/cocina-burger-love-02.jpg" alt="pistones garage cocina burger love 02"></div>
-				<div class="item"><img src="images/cocina-burger-love-04.jpg" alt="pistones garage cocina burger love 04"></div>
+				<div class="item"><img src="images/cocina_amor_burger_lucy.jpg" alt="pistones garage cocina amor burger lucy"></div>
+				<div class="item"><img src="images/cocina_amor_burger_wing_tornado.jpg" alt="pistones garage cocina amor burger wing tornado"></div>
 			</div>
 		</div>
 	</div>
@@ -54,7 +54,7 @@
 				<div class="item"><img src="images/cocina-la-botana-01.jpg" alt="cocina la botana 01"></div>
 				<div class="item"><img src="images/cocina-la-botana-02.jpg" alt="cocina la botana 02"></div>
 				<div class="item"><img src="images/cocina-la-botana-03.jpg" alt="cocina la botana 03"></div>
-				<div class="item"><img src="images/cocina-la-botana-04.jpg" alt="cocina la botana 04"></div>
+				<div class="item"><img src="images/cocina_botana_cheesy_balls.jpg" alt="cocina la botana cheesy balls"></div>
 			</div>
 		</div>
 	</div>
@@ -73,13 +73,13 @@
 		</div>
 		<div class="col-sm-6 col-md-7">
 			<div class="product-slider-3">
-				<div class="item"><img src="images/cocina-algo-mas-01.jpg" alt="cocina algo mas 01"></div>
-				<div class="item"><img src="images/cocina-algo-mas-02.jpg" alt="cocina algo mas 02"></div>
-				<div class="item"><img src="images/cocina-algo-mas-03.jpg" alt="cocina algo mas 03"></div>
+				<div class="item"><img src="images/algomas_04_brownie_f1.jpg" alt="algomas brownie_f1"></div>
 				<div class="item"><img src="images/cocina-algo-mas-04.jpg" alt="cocina algo mas 04"></div>
+				<div class="item"><img src="images/algomas_01_arrachera.jpg" alt="algomas arrachera"></div>
 				<div class="item"><img src="images/cocina-algo-mas-05.jpg" alt="cocina algo mas 05"></div>
+				<div class="item"><img src="images/algomas_02_ensalada.jpg" alt="algomas ensalada"></div>
 				<div class="item"><img src="images/cocina-algo-mas-06.jpg" alt="cocina algo mas 06"></div>
-				<div class="item"><img src="images/cocina-algo-mas-07.jpg" alt="cocina algo mas 07"></div>
+				<div class="item"><img src="images/algomas_03_malteada.jpg" alt="algomas malteada"></div>
 			</div>
 		</div>
 	</div>

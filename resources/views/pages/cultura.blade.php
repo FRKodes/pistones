@@ -40,9 +40,9 @@
 		</div>
 		<div class="col-sm-6 col-md-7">
 			<div class="product-slider">
-				<div class="item"><img src="images/filosofia-cultura-pistones-01.jpg" alt="filosofia cultura pistones 01"></div>
-				<div class="item"><img src="images/filosofia-cultura-pistones-02.jpg" alt="filosofia cultura pistones 02"></div>
-				<div class="item"><img src="images/filosofia-cultura-pistones-03.jpg" alt="filosofia cultura pistones 03"></div>
+				<div class="item"><img src="images/cultura-nuestros-objetivos_01.jpg" alt="filosofia cultura pistones 01"></div>
+				<div class="item"><img src="images/cultura-nuestros-objetivos_02.jpg" alt="filosofia cultura pistones 02"></div>
+				<div class="item"><img src="images/cultura-nuestros-objetivos_03.jpg" alt="filosofia cultura pistones 03"></div>
 			</div>
 		</div>
 	</div>
@@ -62,9 +62,9 @@
 		</div>
 		<div class="col-sm-6 col-md-7">
 			<div class="product-slider-2">
-				<div class="item"><img src="images/cultuta-organizacional-segundo_bloque01.jpg" alt="cultuta organizacional segundo bloque 01"></div>
-				<div class="item"><img src="images/cultuta-organizacional-segundo_bloque02.jpg" alt="cultuta organizacional segundo bloque 02"></div>
-				<div class="item"><img src="images/cultuta-organizacional-segundo_bloque03.jpg" alt="cultuta organizacional segundo bloque 03"></div>
+				<div class="item"><img src="images/cultura-ipc_01.jpg" alt="cultuta organizacional innovacion pasión calidad 01"></div>
+				<div class="item"><img src="images/cultura-ipc_02.jpg" alt="cultuta organizacional innovacion pasión calidad 02"></div>
+				<div class="item"><img src="images/cultura-ipc_03.jpg" alt="cultuta organizacional innovacion pasión calidad 03"></div>
 			</div>
 		</div>
 	</div>
@@ -90,12 +90,13 @@
 		</div>
 		<div class="col-sm-6 col-md-7">
 			<div class="product-slider-3">
-				<div class="item"><img src="images/cultuta-organizacional-tercer_bloque01.jpg" alt="cultuta organizacional tercer bloque01"></div>
-				<div class="item"><img src="images/cultuta-organizacional-tercer_bloque02.jpg" alt="cultuta organizacional tercer bloque02"></div>
-				<div class="item"><img src="images/cultuta-organizacional-tercer_bloque03.jpg" alt="cultuta organizacional tercer bloque03"></div>
+				<div class="item"><img src="images/4p_01_interior_sucursal.jpg" alt="4p interior sucursal"></div>
+				<div class="item"><img src="images/4p_02_decoracion_interior_sucursal.jpg" alt="4p decoracion_interior_sucursal"></div>
+				<div class="item"><img src="images/4p_03_live_music.jpg" alt="4p live music"></div>
+				<div class="item"><img src="images/4p_04_producto.jpg" alt="4p producto"></div>
 			</div>
 		</div>
-		<div class="col-sm-10 col-sm-offset-1"><img src="images/cultura_frase_final.svg" alt="No existe persona más feliz, que la que da resultados positivos."></div>
+		<div class="col-sm-10 col-sm-offset-1"><img src="images/cultura_frase_final_new.svg" alt="No existe persona más feliz, que la que da resultados positivos."></div>
 	</div>
 
 @stop
