@@ -97,7 +97,7 @@
 				<div class="text-container">
 					<h2 class="chunk naranja">Guadalajara, Jalisco: Chapultepec</h2>
 					<p>
-						Tel: 01 33 1021 7612 <br>
+						Tel: 01 33 2184 4453<br>
 						Av. Chapultepec Sur 380 <br>
 						Col. Americana, C.P. 44140 <br>
 						Guadalajara Jalisco
