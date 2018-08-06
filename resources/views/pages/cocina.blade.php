@@ -75,7 +75,6 @@
 			<div class="product-slider-3">
 				<div class="item"><img src="images/algomas_04_brownie_f1.jpg" alt="algomas brownie_f1"></div>
 				<div class="item"><img src="images/cocina-algo-mas-04.jpg" alt="cocina algo mas 04"></div>
-				<div class="item"><img src="images/algomas_01_arrachera.jpg" alt="algomas arrachera"></div>
 				<div class="item"><img src="images/cocina-algo-mas-05.jpg" alt="cocina algo mas 05"></div>
 				<div class="item"><img src="images/algomas_02_ensalada.jpg" alt="algomas ensalada"></div>
 				<div class="item"><img src="images/cocina-algo-mas-06.jpg" alt="cocina algo mas 06"></div>
