@@ -6,7 +6,8 @@
 	<section class="big-background" style="display: block;">
 		{{-- <div class="burger-love"><img src="images/burger_love.svg" alt="Pistones Garage burger love"></div> --}}
 		<a id="bgndVideo" class="player hidden-xs hidden-sm" data-property="{videoURL:'https://www.youtube.com/watch?v=a86X76COXdA',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}"></a>
-	    <div class="pattern hidden-xs hidden-sm hidden-md"></div> 
+	    <div class="pattern"></div>
+	    <a class="play_btn_video" target="_blank" href="https://www.youtube.com/watch?v=a86X76COXdA" title="Ver video cerveza corona $15"><img src="images/play_btn.png" alt="play button"></a>
 	</section>
 
 	{{-- <div class="banner-main-rusia"><a href="https://www.facebook.com/PistonesGarage/" target="_blank"></a></div> --}}

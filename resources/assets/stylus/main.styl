@@ -69,6 +69,17 @@ iframe
 	width 100%
 	height auto
 	display block
+.play_btn_video
+	width 70px
+	height auto
+	display block
+	position absolute
+	left 40%
+	top 170px
+	img
+		width 100%
+		height 100%
+		display block
 body
 	background transparent url(../../images/background.jpg) repeat center top
 	color black
@@ -146,7 +157,10 @@ body
 		display block
 .big-background
 	height 400px !important
-	background black url(../../images/pistones-garage-sucursal-toscana.jpg) no-repeat 50% 50% !important
+	background-color black
+	background-image url(../../images/pistones-chela-15.png)
+	background-repeat no-repeat
+	background-position center center !important
 	background-size cover
 // .banner-video
 // 	background transparent url(../../images/franquicia.jpg) no-repeat 45.7% top
@@ -166,6 +180,7 @@ body
 // 		top 50%
 // 		vertical-align middle
 // 		width 80px
+
 .burger-love
 	height auto
 	overflow hidden
@@ -560,6 +575,12 @@ footer
 	.culture-p
 		margin-top -80px
 @media screen and (min-width:768px)
+	.play_btn_video
+		width 100px
+		left 45%
+		top 170px
+	.big-background
+		height 500px !important
 	.banner-main-rusia
 	.banner-main-confederaciones
 		height 600px
@@ -862,6 +883,8 @@ footer
 			.up-this-one
 				margin-top -115px
 @media screen and (min-width:1280px)
+	.play_btn_video
+		display none
 	.floating-label
 		display block
 	.navbar-default

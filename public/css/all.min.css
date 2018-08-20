@@ -11272,6 +11272,21 @@ iframe {
   display: block;
 }
 
+.play_btn_video {
+  width: 70px;
+  height: auto;
+  display: block;
+  position: absolute;
+  left: 40%;
+  top: 170px;
+}
+
+.play_btn_video img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
 body {
   background: transparent url("../../images/background.jpg") repeat center top;
   color: #000;
@@ -11388,7 +11403,10 @@ body {
 
 .big-background {
   height: 400px !important;
-  background: #000 url("../../images/pistones-garage-sucursal-toscana.jpg") no-repeat 50% 50% !important;
+  background-color: #000;
+  background-image: url("../../images/pistones-chela-15.png");
+  background-repeat: no-repeat;
+  background-position: center center !important;
   background-size: cover;
 }
 
@@ -12009,6 +12027,16 @@ footer .eleanor img {
 }
 
 @media screen and (min-width: 768px) {
+  .play_btn_video {
+    width: 100px;
+    left: 45%;
+    top: 170px;
+  }
+
+  .big-background {
+    height: 500px !important;
+  }
+
   .banner-main-rusia,
   .banner-main-confederaciones {
     height: 600px;
@@ -12488,6 +12516,10 @@ footer .eleanor img {
 }
 
 @media screen and (min-width: 1280px) {
+  .play_btn_video {
+    display: none;
+  }
+
   .floating-label {
     display: block;
   }
