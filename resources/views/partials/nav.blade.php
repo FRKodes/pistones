@@ -24,6 +24,7 @@
 				<li><a class="{{ Request::is('cocina') ? 'active' : '' }}" href="cocina">Cocina</a></li>
 				<li><a class="{{ Request::is('sucursales') ? 'active' : '' }}" href="sucursales">Sucursales</a></li>
 				<li><a class="{{ Request::is('franquicia') ? 'active' : '' }}" href="franquicia">Franquicia</a></li>
+				<li><a class="{{ Request::is('live-score') ? 'active' : '' }}" href="live-score">Marcadores en vivo</a></li>
 				{{-- <li><a class="" target="_blank" href="{{ url('quiniela')}}">Quiniela Mundial</a></li> --}}
 				{{-- <li><a class="{{ Request::is('menu-to-go') ? 'active' : '' }}" href="menu-to-go">Menú To Go</a></li> --}}
 				{{-- <li><a class="{{ Request::is('sportstravel') ? 'active' : '' }}" href="sportstravel">Sports Travel</a></li> --}}

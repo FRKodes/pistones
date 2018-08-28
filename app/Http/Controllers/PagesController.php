@@ -52,6 +52,11 @@ class PagesController extends Controller {
 		return View('pages.sports_travel');
 	}
 	
+	public function livescore()
+	{
+		return View('pages.livescore');
+	}
+	
 	public function sendmail(){
 		Mail::send('emails.contacto', [], function($message)
 		{

@@ -8,6 +8,7 @@ Route::get('cocina', 'PagesController@cocina');
 Route::get('sucursales', 'PagesController@sucursales');
 Route::get('franquicia', 'PagesController@franquicia');
 Route::get('menu-to-go', 'PagesController@menu');
+Route::get('live-score', 'PagesController@livescore');
 Route::get('quiniela', function ()
 {
 	return redirect('/pdf/quiniela-pistones-rusia-2018.pdf');
